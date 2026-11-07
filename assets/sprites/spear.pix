@@ -1,0 +1,10 @@
+// drawn by the game while the player attacks, origin at the back of the shaft
+size 20 5
+origin 0 2
+
+frame 0
+...............kL...
+TTTTTTTTTTTTTTkLLL..
+tttttttttttttkLLLLLw
+TTTTTTTTTTTTTTkLLL..
+...............kL...

@@ -1,0 +1,25 @@
+# the shadows. Almost nothing: a slow heartbeat, a pad that won't resolve,
+# a few high notes like someone else's light far off. B minor, mostly not.
+tempo 56
+rows 4
+
+inst beat  sine     vol 0.24 attack 0.005 decay 0.3 sustain 0.0
+inst pad   sine     vol 0.10 attack 1.5 decay 1.0 sustain 0.8 release 2.0 vibrato 0.006
+inst star  triangle vol 0.07 attack 0.002 decay 2.0 sustain 0.0
+
+pattern a
+beat  B1 .  B1 .  | .  .  .  .  | B1 .  B1 .  | .  .  .  .
+pad   D4 .  .  .  | .  .  .  .  | .  .  .  .  | .  .  .  .
+star  .  .  .  .  | F#6 . .  .  | .  .  .  .  | .  .  .  .
+
+pattern b
+beat  G1 .  G1 .  | .  .  .  .  | G1 .  G1 .  | .  .  .  .
+pad   E4 .  .  .  | .  .  .  .  | .  .  .  .  | .  .  .  -
+star  .  .  .  .  | .  .  .  .  | D6 .  .  .  | .  .  .  .
+
+pattern c
+beat  A#1 . A#1 . | .  .  .  .  | A#1 . A#1 . | .  .  .  .
+pad   C#4 . .  .  | .  .  .  .  | .  .  .  .  | .  .  .  .
+star  .  .  C#6 . | .  .  .  .  | .  .  .  .  | B5 .  .  .
+
+order a b a c a b c a

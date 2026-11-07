@@ -1,0 +1,48 @@
+{
+  "size": 16,
+  "tiles": {
+    "#": { "name": "rock", "sprite": "tiles", "frames": ["rock_a", "rock_c", "rock_a"], "top": "rock_top", "solid": true, "edges": true },
+    "B": { "name": "bricks", "sprite": "tiles", "frames": ["brick"], "solid": true, "edges": true },
+    "=": { "name": "ledge", "sprite": "tiles", "frames": ["ledge"], "oneway": true },
+    "^": { "name": "spikes", "sprite": "tiles", "frames": ["spikes"], "hazard": true, "box": [2, 10, 12, 6] },
+    "v": { "name": "vine", "sprite": "tiles", "frames": ["vine"] },
+    ",": { "name": "grass", "sprite": "tiles", "frames": ["grass"] },
+    "m": { "name": "mushrooms", "sprite": "tiles", "frames": ["mushroom"] },
+    "|": { "name": "chain", "sprite": "tiles", "frames": ["chain"] },
+
+    "D": { "name": "forest soil", "sprite": "tiles_forest", "frames": ["dirt_a", "dirt_b", "dirt_a"], "top": "dirt_top", "solid": true, "edges": true },
+    "_": { "name": "log", "sprite": "tiles_forest", "frames": ["log"], "oneway": true },
+    "o": { "name": "leaves", "sprite": "tiles_forest", "frames": ["leaves"], "oneway": true },
+    "b": { "name": "bush", "sprite": "tiles_forest", "frames": ["bush"] },
+    "f": { "name": "flowers", "sprite": "tiles_forest", "frames": ["flowers"] },
+
+    "R": { "name": "basalt", "sprite": "tiles_fire", "frames": ["basalt_a", "basalt_b", "basalt_a"], "top": "basalt_top", "solid": true, "edges": true },
+    "%": { "name": "lava", "sprite": "tiles_fire", "frames": ["lava"], "top": ["lava_top0", "lava_top1", "lava_top2", "lava_top3"],
+           "fps": 6, "lava": true, "box": [0, 5, 16, 11], "light": 34, "light_color": "#ff6020" },
+    "a": { "name": "ash", "sprite": "tiles_fire", "frames": ["ash"] },
+
+    "S": { "name": "sand", "sprite": "tiles_water", "frames": ["sand_a", "sand_b", "sand_a"], "top": "sand_top", "solid": true, "edges": true },
+    "~": { "name": "water", "sprite": "tiles_water", "frames": ["water"], "top": ["water_top0", "water_top1", "water_top2", "water_top3"],
+           "fps": 3, "water": true, "box": [0, 7, 16, 9] },
+    "c": { "name": "coral", "sprite": "tiles_water", "frames": ["coral"] },
+    "w": { "name": "seaweed", "sprite": "tiles_water", "frames": ["seaweed"] },
+
+    "N": { "name": "frozen rock", "sprite": "tiles_ice", "frames": ["rock_a", "rock_b", "rock_a"], "top": "rock_top", "solid": true, "edges": true },
+    "I": { "name": "ice", "sprite": "tiles_ice", "frames": ["ice_a"], "top": "ice_top", "solid": true, "edges": true, "ice": true },
+    "*": { "name": "crystals", "sprite": "tiles_ice", "frames": ["crystal"] },
+    "!": { "name": "icicles", "sprite": "tiles_ice", "frames": ["icicles"] },
+
+    "K": { "name": "cloud", "sprite": "tiles_sky", "frames": ["cloud"], "oneway": true },
+    "P": { "name": "sky stone", "sprite": "tiles_sky", "frames": ["stone_a", "stone_b", "stone_a"], "top": "stone_top", "solid": true, "edges": true },
+    "e": { "name": "sky flowers", "sprite": "tiles_sky", "frames": ["flowers"] },
+
+    "M": { "name": "metal", "sprite": "tiles_forge", "frames": ["metal_a", "metal_b", "metal_a"], "top": "metal_top", "solid": true, "edges": true },
+    "H": { "name": "catwalk", "sprite": "tiles_forge", "frames": ["grate"], "oneway": true },
+    "<": { "name": "belt left", "sprite": "tiles_forge", "frames": ["belt0", "belt1", "belt2", "belt3"], "fps": 10, "solid": true },
+    ">": { "name": "belt right", "sprite": "tiles_forge", "frames": ["belt3", "belt2", "belt1", "belt0"], "fps": 10, "solid": true },
+    "q": { "name": "pipes", "sprite": "tiles_forge", "frames": ["pipes"] },
+
+    "O": { "name": "obsidian", "sprite": "tiles_shadow", "frames": ["obs_a", "obs_b", "obs_a"], "top": "obs_top", "solid": true, "edges": true },
+    "x": { "name": "shadow crystals", "sprite": "tiles_shadow", "frames": ["crystals"], "light": 10, "light_color": "#8a6ad0" }
+  }
+}

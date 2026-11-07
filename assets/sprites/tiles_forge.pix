@@ -1,0 +1,172 @@
+// the forge: plated metal, catwalks, belts, pipes
+// made by tools/bggen.py, change it there
+size 16 16
+origin 0 0
+palette
+e #4a3a3a
+E #6a5450
+h #2a1e20
+L #a08a80
+s #3a3030
+
+frame metal_a
+Ehhhhhhhhhhhhhhh
+Eeeeeeeeeeeeeeee
+EeLeheeeeeeeeLee
+Eeeeheeeeeeeeeee
+Eeeeeeeeeeeeeeee
+Eeeeeeeeeeeeeeeh
+EeEeeeeeeeeeeeee
+Eeeeeeeeeeeeeeee
+Eeeeeeeeeeeeeeee
+EeeEeeeeeEeeeeee
+EeeeeEeeeeheeeee
+EeeeeeeeeeeeeeeE
+Eeeeeeeeeeeeeeee
+EeLeEeeeeeeeeLee
+Eeeeeeeeeeeeeeee
+Ehhhhhhhhhhhhhhh
+
+frame metal_b
+Ehhhhhhhhhhhhhhh
+Eeeeeeeeeeeeeeee
+EeLeheeeeeeeeLee
+Eeeeheeeeeeeeeee
+Eeeeeeeeeeeeeeee
+Eeeeeeeeeeeeeeeh
+EeEeeeeeeeeeeeee
+Eeehhhhhhhhhheee
+EeeEEEEEEEEEEeee
+EeeEeeeeeEeeeeee
+EeeeeEeeeeheeeee
+EeeeeeeeeeeeeeeE
+Eeeeeeeeeeeeeeee
+EeLeEeeeeeeeeLee
+Eeeeeeeeeeeeeeee
+Ehhhhhhhhhhhhhhh
+
+frame metal_top
+LLLLLLLLLLLLLLLL
+EEEEEEEEEEEEEEEE
+EoLehoeeeoeeeoee
+Eeeeheeeeeeeeeee
+Eeeeeeeeeeeeeeee
+Eeeeeeeeeeeeeeeh
+EeEeeeeeeeeeeeee
+Eeeeeeeeeeeeeeee
+Eeeeeeeeeeeeeeee
+EeeEeeeeeEeeeeee
+EeeeeEeeeeheeeee
+EeeeeeeeeeeeeeeE
+Eeeeeeeeeeeeeeee
+EeLeEeeeeeeeeLee
+Eeeeeeeeeeeeeeee
+Ehhhhhhhhhhhhhhh
+
+frame grate
+LLLLLLLLLLLLLLLL
+EEEEEEEEEEEEEEEE
+E..E..E..E..E..E
+hhhhhhhhhhhhhhhh
+................
+................
+................
+................
+................
+................
+................
+................
+................
+................
+................
+................
+
+frame belt0
+ksssksssksssksss
+ksssksssksssksss
+ksssksssksssksss
+hhhhhhhhhhhhhhhh
+Eeeeeeeeeeeeeeee
+Eeeeeeeeeeeeeeeh
+EeEeeeeeeeeeeeee
+Eeeeeeeeeeeeeeee
+Eeeeeeeeeeeeeeee
+EeeEeeeeeEeeeeee
+EeeeeEeeeeheeeee
+EeeeeeeeeeeeeeeE
+Eeeeeeeeeeeeeeee
+EeLeEeeeeeeeeLee
+Eeeeeeeeeeeeeeee
+Ehhhhhhhhhhhhhhh
+
+frame belt1
+ssksssksssksssks
+ssksssksssksssks
+ssksssksssksssks
+hhhhhhhhhhhhhhhh
+Eeeeeeeeeeeeeeee
+Eeeeeeeeeeeeeeeh
+EeEeeeeeeeeeeeee
+Eeeeeeeeeeeeeeee
+Eeeeeeeeeeeeeeee
+EeeEeeeeeEeeeeee
+EeeeeEeeeeheeeee
+EeeeeeeeeeeeeeeE
+Eeeeeeeeeeeeeeee
+EeLeEeeeeeeeeLee
+Eeeeeeeeeeeeeeee
+Ehhhhhhhhhhhhhhh
+
+frame belt2
+ksssksssksssksss
+ksssksssksssksss
+ksssksssksssksss
+hhhhhhhhhhhhhhhh
+Eeeeeeeeeeeeeeee
+Eeeeeeeeeeeeeeeh
+EeEeeeeeeeeeeeee
+Eeeeeeeeeeeeeeee
+Eeeeeeeeeeeeeeee
+EeeEeeeeeEeeeeee
+EeeeeEeeeeheeeee
+EeeeeeeeeeeeeeeE
+Eeeeeeeeeeeeeeee
+EeLeEeeeeeeeeLee
+Eeeeeeeeeeeeeeee
+Ehhhhhhhhhhhhhhh
+
+frame belt3
+ssksssksssksssks
+ssksssksssksssks
+ssksssksssksssks
+hhhhhhhhhhhhhhhh
+Eeeeeeeeeeeeeeee
+Eeeeeeeeeeeeeeeh
+EeEeeeeeeeeeeeee
+Eeeeeeeeeeeeeeee
+Eeeeeeeeeeeeeeee
+EeeEeeeeeEeeeeee
+EeeeeEeeeeheeeee
+EeeeeeeeeeeeeeeE
+Eeeeeeeeeeeeeeee
+EeLeEeeeeeeeeLee
+Eeeeeeeeeeeeeeee
+Ehhhhhhhhhhhhhhh
+
+frame pipes
+......ELLE......
+......ELLE......
+......ELLE......
+.....hhhhhh.....
+......ELLE......
+......ELLE......
+......ELLE......
+......ELLE......
+......ELLE......
+......ELLE......
+.....hhhhhh.....
+......ELLE......
+......ELLE......
+......ELLE......
+......ELLE......
+......ELLE......

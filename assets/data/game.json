@@ -1,0 +1,58 @@
+{
+  // in order. run, jump and light multiply Lueur's own numbers while she's
+  // there: the volcano feeds her, the sea saps her, the ice freezes her
+  "worlds": [
+    { "id": "grotte", "name": "la grotte", "levels": ["hollow", "faille_givre", "roots", "deep"] },
+    { "id": "sanctuaire", "name": "le sanctuaire", "levels": ["refuge"] },
+    { "id": "foret", "name": "la forêt", "intro": "vers_foret", "levels": ["sous_bois", "canopee"] },
+    { "id": "volcan", "name": "le volcan", "intro": "vers_volcan", "levels": ["cendres", "coeur"],
+      "run": 1.15, "jump": 1.18, "light": 1.5, "aura": "#ff8a3a" },
+    { "id": "mer", "name": "la mer", "intro": "vers_mer", "levels": ["rivage", "large"],
+      "run": 0.85, "jump": 0.88, "light": 0.55, "aura": "#a8b8ff" },
+    // cold: heat lost per second away from a fire, she's out when it's gone
+    { "id": "glace", "name": "la glace", "intro": "vers_glace", "levels": ["col", "glacier"],
+      "light": 0.9, "cold": 0.075 },
+    // the wind feeds her: a little faster, a little brighter
+    { "id": "ciel", "name": "le ciel", "intro": "vers_ciel", "levels": ["nuees", "tempete"],
+      "run": 1.05, "light": 1.2, "aura": "#ffc070" },
+    // a single arena, the Froid himself. Colder than the ice
+    { "id": "froid", "name": "le cœur du Froid", "intro": "vers_froid", "levels": ["coeur_froid"],
+      "run": 1.05, "cold": 0.06 },
+    // a dead city of machines, heat everywhere: she burns a little brighter
+    { "id": "forge", "name": "la forge en ruine", "intro": "vers_forge", "levels": ["atelier", "puits_vapeur", "grande_forge"],
+      "light": 1.15, "aura": "#ffa050" },
+    // the last one: no light but hers
+    { "id": "ombres", "name": "le monde des ombres", "intro": "vers_ombres", "levels": ["crepuscule", "nuit_noire", "abime"],
+      "light": 0.85 }
+  ],
+  "gravity": 900,
+
+  // backdrop for every level that doesn't bring its own "parallax" prop.
+  // speed: 0 sticks to the screen, 1 moves with the world, more is in front
+  "parallax": [
+    { "sprite": "bg_ceiling", "speed": 0.1, "anchor": "top" },
+    { "sprite": "bg_far", "speed": 0.15, "offset": 16 },
+    { "sprite": "bg_mid", "speed": 0.3, "offset": 2, "gap": 40 },
+    { "sprite": "bg_near", "speed": 0.5, "offset": -12, "gap": 110 },
+    { "sprite": "fg_roots", "speed": 1.3, "anchor": "top", "offset": -4, "gap": 170, "front": true },
+    { "sprite": "fg_rocks", "speed": 1.45, "offset": -6, "gap": 260, "front": true }
+  ],
+
+  // feel of the player, reloaded live when this file is saved
+  "player": {
+    "run": 105,
+    "accel": 900,
+    "air_accel": 620,
+    "friction": 1200,
+    "air_friction": 300,
+    "jump": 315,
+    "jump_cut": 0.45,
+    "fall_gravity": 1.5,
+    "apex_gravity": 0.55,
+    "wall_slide": 55,
+    "wall_jump_x": 140,
+    "wall_jump_y": 285,
+    "coyote": 0.1,
+    "buffer": 0.12
+  }
+}

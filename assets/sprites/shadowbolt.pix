@@ -1,0 +1,28 @@
+// the Night throws these
+// made by tools/bggen.py, change it there
+size 8 8
+origin 4 4
+palette
+C #c8a8ff
+
+frame 0
+...k....
+..kkkk..
+.kkkkkkk
+kkkCCkk.
+.kkCCkk.
+.kkkkkkk
+..kkkkk.
+..k..k..
+
+frame 1
+..k..k..
+.kkkkk..
+kkkkkkk.
+.kkCCkk.
+.kkCCkkk
+kkkkkkk.
+..kkkk..
+....k...
+
+anim spin 10 loop 0-1

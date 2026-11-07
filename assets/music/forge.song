@@ -1,0 +1,29 @@
+# the forge. A machine that won't quite stop: hammer on the beat, a square
+# riff turning over in D dorian, a low drone underneath.
+tempo 108
+rows 4
+
+inst hammer noise    vol 0.12 attack 0.001 decay 0.08 sustain 0.0
+inst riff   square   vol 0.08 duty 0.3 attack 0.004 decay 0.25 sustain 0.2 release 0.1
+inst bell   triangle vol 0.10 attack 0.002 decay 0.8 sustain 0.0
+inst drone  sine     vol 0.20 attack 0.3 decay 1.0 sustain 0.7 release 0.6
+
+pattern d
+hammer C5 .  .  .  | C5 .  C5 .  | C5 .  .  .  | C5 .  C5 C5
+riff   D4 F4 A4 F4 | C5 A4 F4 A4 | D4 F4 A4 F4 | B4 A4 G4 F4
+bell   .  .  .  .  | .  .  .  .  | D6 .  .  .  | .  .  .  .
+drone  D2 .  .  .  | .  .  .  .  | .  .  .  .  | .  .  .  .
+
+pattern c
+hammer C5 .  .  .  | C5 .  C5 .  | C5 .  .  .  | C5 C5 .  C5
+riff   C4 E4 G4 E4 | B4 G4 E4 G4 | C4 E4 G4 E4 | A4 G4 F4 E4
+bell   .  .  .  .  | .  .  C6 .  | .  .  .  .  | .  .  .  .
+drone  C2 .  .  .  | .  .  .  .  | .  .  .  .  | .  .  .  .
+
+pattern g
+hammer C5 .  .  .  | C5 .  C5 .  | C5 .  .  .  | C5 .  C5 C5
+riff   G3 B3 D4 B3 | F4 D4 B3 D4 | G3 B3 D4 B3 | E4 D4 C4 B3
+bell   B5 .  .  .  | .  .  .  .  | .  .  .  .  | A5 .  .  .
+drone  G1 .  .  .  | .  .  .  .  | .  .  .  .  | .  .  .  .
+
+order d d c d g c d d

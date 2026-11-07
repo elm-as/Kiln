@@ -1,0 +1,17 @@
+// held in front of her, facing right. Origin at the grip
+size 5 12
+origin 3 6
+
+frame 0
+.TT..
+..tT.
+.L.tT
+.L..T
+.L..T
+.L..n
+.L..n
+.L..T
+.L..T
+.L.tT
+..tT.
+.TT..

@@ -1,0 +1,141 @@
+// the ice world: frozen rock under snow, clear slippery ice
+// made by tools/bggen.py, change it there
+size 16 16
+origin 0 0
+palette
+a #dce6f2
+A #ffffff
+z #9eb2cc
+e #34405c
+E #46547a
+h #262e46
+i #6ea8dc
+I #a8d4f4
+j #3e72ae
+J #e8f6ff
+
+frame rock_a
+eeeeeeeeeeeeeeEe
+eeeeeeeheeeeeEee
+eeeeeeeeeeeEehee
+eeeeeeeeEeeeeeee
+eeheeEeeeeheeeee
+eeeeeeeeEeeeeeee
+eheeeeeEeheEeeee
+eeeeeEeeeeeeeeee
+eeeEeeeeEeeeEeee
+eeeEeeeEeeeeheEe
+eeeeeeeEeeeeeeEe
+eeeeeeEeeeeeeeee
+eeeeeeeeeeeeeEee
+eeeeeeeeeeEeeeee
+eeeeeeeeEeeeeeEe
+eeeeeeeeeEeeeeeE
+
+frame rock_b
+eeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeee
+heeheeeeEeeeeeee
+heeeeeeeeeeeeeee
+eeeeeeeeeeeeeeee
+eeeeeIeeeeeeeeee
+eeeeeeeeeeeeehee
+eeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeee
+eeeeeheeeeIeeeee
+eeeeeeeIeeeeeeee
+eeeeeeeeeeeeeeeh
+eeeEEeeIeeeeeeee
+eEeeeeeeeEeeeeeE
+eeeeeEEeeeeeeeee
+eeeeeeeEeeeeeehe
+
+frame rock_top
+AAAAAAAAAAAAAAAA
+aaaaaaaaaaaaaaaa
+aaaaaazaaaaaazaa
+zzaaazezzaazzezz
+eeazzEeeeaaeeeee
+eezeeeeeEzzeeeee
+eheeeeeEeheEeeee
+eeeeeEeeeeeeeeee
+eeeEeeeeEeeeEeee
+eeeEeeeEeeeeheEe
+eeeeeeeEeeeeeeEe
+eeeeeeEeeeeeeeee
+eeeeeeeeeeeeeEee
+eeeeeeeeeeEeeeee
+eeeeeeeeEeeeeeEe
+eeeeeeeeeEeeeeeE
+
+frame ice_a
+iiiiiiiiiiiiiiii
+iiiiiiiiiiiiijii
+iIiiiiiiiiiiiiii
+iiiiijiiiiiJiiii
+IjiiiiiiiiJiijii
+iiiiiiiiiJiiiiii
+iijiiiiiJiiiiiii
+iiiiijiiiIiiiiii
+iiiiiiiiiiiiiiii
+ijiiiiiIJiiiiiii
+iiiiiiiJiiiiiiii
+iiiiiiJiiiiiiiii
+iiiiiJiiiiiiiiii
+iiiiiiiiiiiiiiiI
+iiiiiiiiiiiiiiji
+iiiIiiiiiiiiiiii
+
+frame ice_top
+JJJJJJJJJJJJJJJJ
+IIIIIIIIIIIIIIII
+iIiiiiiiiiiiiiii
+iiiiijiiiiiJiiii
+IjiiiiiiiiJiijii
+iiiiiiiiiJiiiiii
+iijiiiiiJiiiiiii
+iiiiijiiiIiiiiii
+iiiiiiiiiiiiiiii
+ijiiiiiIJiiiiiii
+iiiiiiiJiiiiiiii
+iiiiiiJiiiiiiiii
+iiiiiJiiiiiiiiii
+iiiiiiiiiiiiiiiI
+iiiiiiiiiiiiiiji
+iiiIiiiiiiiiiiii
+
+frame crystal
+................
+................
+................
+................
+................
+................
+................
+................
+......J.........
+......J.........
+......JiJ.......
+...J..JiJ.......
+...J..JiJi..J...
+...Ji.JiJi..J...
+...Ji.JiJi..Ji..
+...Ji.JiJi..Ji..
+
+frame icicles
+..Ji..Ji.Ji..Ji.
+..Ji..Ji.Ji..Ji.
+..Ji..Ji.Ji..Ji.
+..Ji..J..Ji..Ji.
+..Ji..J..Ji..J..
+..J......Ji..J..
+..J......J...J..
+..J......J......
+..J......J......
+.........J......
+.........J......
+.........J......
+................
+................
+................
+................

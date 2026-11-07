@@ -1,0 +1,11 @@
+build/
+.vs/
+*.tga
+*.exe
+*.obj
+*.pdb
+*.ilk
+save.json
+progress.json
+options.json
+

@@ -1,0 +1,74 @@
+// lantern, a fire arrow lights it
+// made by tools/bggen.py, change it there
+size 12 20
+origin 6 20
+
+frame cold
+....kkkk....
+....kkkk....
+.kkkkkkkkkk.
+.kddddddddk.
+.kddddddddk.
+.kddddddddk.
+.kddddddddk.
+.kddddddddk.
+.kddddddddk.
+.kddddddddk.
+.kddddddddk.
+.kddddddddk.
+.kddddddddk.
+.kddddddddk.
+.kddddddddk.
+.kddddddddk.
+.kddddddddk.
+.kkkkkkkkkk.
+.....kk.....
+.....kk.....
+
+frame lit0
+....kkkk....
+....kkkk....
+.kkkkkkkkkk.
+.kYyOYyOYyk.
+.kOYyOYyOYk.
+.kyOYyOYyOk.
+.kyOYyOYyOk.
+.kYyOYyOYyk.
+.kOYyOYyOYk.
+.kOYyOYyOYk.
+.kyOYyOYyOk.
+.kYyOYyOYyk.
+.kYyOYyOYyk.
+.kOYyOYyOYk.
+.kyOYyOYyOk.
+.kyOYyOYyOk.
+.kYyOYyOYyk.
+.kkkkkkkkkk.
+.....kk.....
+.....kk.....
+
+frame lit1
+....kkkk....
+....kkkk....
+.kkkkkkkkkk.
+.kyOYyOYyOk.
+.kyOYyOYyOk.
+.kYyOYyOYyk.
+.kOYyOYyOYk.
+.kOYyOYyOYk.
+.kyOYyOYyOk.
+.kYyOYyOYyk.
+.kYyOYyOYyk.
+.kOYyOYyOYk.
+.kyOYyOYyOk.
+.kyOYyOYyOk.
+.kYyOYyOYyk.
+.kOYyOYyOYk.
+.kOYyOYyOYk.
+.kkkkkkkkkk.
+.....kk.....
+.....kk.....
+
+anim cold 1 once cold
+
+anim lit 6 loop lit0 lit1

@@ -1,0 +1,7 @@
+# the whole thing coming apart
+wave noise
+freq 3000 -> 80
+attack 0.01
+sustain 0.4
+decay 1.6
+volume 0.5

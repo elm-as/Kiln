@@ -1,0 +1,13 @@
+// moving platform, the origin is the middle of the top edge
+size 32 8
+origin 16 0
+
+frame 0
+kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+kLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLk
+kllllllllllllllllllllllllllllllk
+kSSSkSSSkSSSkSSSkSSSkSSSkSSSkSSk
+kssssssssssssssssssssssssssssssk
+kddddddddddddddddddddddddddddddk
+.kkkkkkkkkkkkkkkkkkkkkkkkkkkkkk.
+......kk................kk......

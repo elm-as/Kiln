@@ -1,0 +1,393 @@
+{
+  "props": {
+    "music": "forge",
+    "ambient": "#6a4a44",
+    "sky_top": "#140a0a",
+    "sky_bottom": "#3a1a14",
+    "parallax": [
+      {
+        "sprite": "fr_smoke",
+        "speed": 0.08,
+        "anchor": "top",
+        "drift": 2
+      },
+      {
+        "sprite": "fr_far",
+        "speed": 0.12,
+        "offset": 8,
+        "gap": 30
+      },
+      {
+        "sprite": "fr_mid",
+        "speed": 0.3,
+        "offset": 0,
+        "gap": 60
+      },
+      {
+        "sprite": "fr_near",
+        "speed": 0.55,
+        "offset": -10
+      }
+    ],
+    "title": "forge · la grande forge",
+    "outro": "forge_fin"
+  },
+  "tiles": [
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM",
+    "M........|MMM...|....MMMMMMMMMMMMM......|.|......|.|||..|...MMMMMMMM...||..|........|...................|....M",
+    "M.........MMM........MMMMMMMMMMMMM..........................MMMMMMMM.........................................M",
+    "M.........MMM........MMMMMMMMMMMMM..........................MMMMMMMM.........................................M",
+    "M.........MMM........MMMMMMMMMMMMM..........................MMMMMMMM.........................................M",
+    "M.........MMM........MMMMMMMMMMMMM..........................MMMMMMMM.................q.q...................q.M",
+    "M.........MMM........MMMMMMMMMMMMM..........................MMMMMMMM.......MMM<<<<<<<<<<<MMMM......MMMMMMMMMMM",
+    "M.........MMM........MMMMMMMMMMMMM..........................MMMMMMMM.......MMMMMMMMMMMMMMMMMM......MMMMMMMMMMM",
+    "M.........MMM........MMMMMMMMMMMMM..........................MMMMMMMM.......MMMMMMMMMMMMMMMMMM......MMMMMMMMMMM",
+    "M.........MMM........MMMMMMMMMMMMM..........................MMMMMMMM.......MMMMMMMMMMMMMMMMMM......MMMMMMMMMMM",
+    "M.........MMM........MMMMMMMMMMMMM..........................MMMMMMMM.......MMMMMMMMMMMMMMMMMM......MMMMMMMMMMM",
+    "M.........MMM.........|.........|...........................MMMMMMMM.......MMMMMMMMMMMMMMMMMM......MMMMMMMMMMM",
+    "M.........MMM...........................MMM.................MMMMMMMM...MMM.MMMMMMMMMMMMMMMMMM......MMMMMMMMMMM",
+    "M.........MMM........................................HH.....MMMMMMMM.......MMMMMMMMMMMMMMMMMM......MMMMMMMMMMM",
+    "M.........MMM....................................HH......HH.MMMMMMMM.......MMMMMMMMMMMMMMMMMM......MMMMMMMMMMM",
+    "M..........................................................................MMMMMMMMMMMMMMMMMM......MMMMMMMMMMM",
+    "M....q....q..................q................q............................MMMMMMMMMMMMMMMMMM......MMMMMMMMMMM",
+    "MMMMMMMMMMMMMM......MMMMMMMMMMMMMMMMMMMMMMMMMMM............MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM......MMMMMMMMMMM",
+    "MMMMMMMMMMMMMM......MMMMMMMMMMMMMMMMMMMMMMMMMMM%%%%%%%%%%%%MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM......MMMMMMMMMMM",
+    "MMMMMMMMMMMMMM......MMMMMMMMMMMMMMMMMMMMMMMMMMM%%%%%%%%%%%%MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM......MMMMMMMMMMM",
+    "MMMMMMMMMMMMMM^^^^^^MMMMMMMMMMMMMMMMMMMMMMMMMMM%%%%%%%%%%%%MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM^^^^^^MMMMMMMMMMM"
+  ],
+  "back": [
+    "..............................................................................................................",
+    "......MM.M...MM...MMM.....................MM....MMM.MMMMMMMM..................MM....MMMMMM...MMMMMMM..MMMMMMM.",
+    ".........M....M...MMM.....................MMMMMMMMM...MMMMMM..................MMM...MMMMMM...MMMMMM......MMMM.",
+    "...........................................................M................................................M.",
+    "...........................................................M................................................M.",
+    "...........................................................M..................................................",
+    ".M...........M....................M.................................M.........................................",
+    ".M...........M....................M.................................M.............................M...........",
+    ".............M....................M.................................M.............................M...........",
+    ".M.......M........................M.................................M.............................M...........",
+    ".M.......M........................M...............................................................M...........",
+    ".M.......M............MMMMM...MM..M...............................................................M...........",
+    ".M.......M...M.......MMMMMM...MMMM.........................M........M.............................M...........",
+    ".M.......M...M..........................MM.................M........M.............................M...........",
+    ".........M...M......................................................M........................M....M...........",
+    ".........MMMMM..............................................MMMMMM........M.......................M...........",
+    "..............................................................................................................",
+    "..............................................................................................................",
+    "..............M....M...........................M..........M..................................M................",
+    "..............M....M...........................M..........M..................................M................",
+    "...............................................M..................................................M...........",
+    "..........MM.......MM...MMM......MMMMM.MMM..MM................MMMMMMM.........MMMMMM...MMM........MMMM...MMMMM"
+  ],
+  "entities": [
+    {
+      "prefab": "tapis",
+      "pos": [
+        1336,
+        112
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "w": 176,
+            "push": -55
+          }
+        }
+      }
+    },
+    {
+      "prefab": "start",
+      "pos": [
+        56,
+        288
+      ]
+    },
+    {
+      "prefab": "braise",
+      "pos": [
+        104,
+        288
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "dialogue": "grande_forge_debut",
+            "hint": "fonce !"
+          }
+        }
+      }
+    },
+    {
+      "prefab": "sign",
+      "pos": [
+        136,
+        288
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "text": "{elan} : l’élan. il brise les planches pourries"
+          }
+        }
+      }
+    },
+    {
+      "prefab": "planches",
+      "pos": [
+        184,
+        288
+      ]
+    },
+    {
+      "prefab": "sign",
+      "pos": [
+        216,
+        288
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "text": "saute, puis prends ton élan en l’air"
+          }
+        }
+      }
+    },
+    {
+      "prefab": "ember",
+      "pos": [
+        280,
+        232
+      ]
+    },
+    {
+      "prefab": "pilon",
+      "pos": [
+        376,
+        192
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "dy": 56,
+            "wait": 1.2
+          }
+        }
+      }
+    },
+    {
+      "prefab": "pilon",
+      "pos": [
+        440,
+        192
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "dy": 56,
+            "wait": 1.2,
+            "delay": 0.5
+          }
+        }
+      }
+    },
+    {
+      "prefab": "pilon",
+      "pos": [
+        504,
+        192
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "dy": 56,
+            "wait": 1.2,
+            "delay": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prefab": "ember",
+      "pos": [
+        440,
+        248
+      ]
+    },
+    {
+      "prefab": "brazier",
+      "pos": [
+        584,
+        288
+      ]
+    },
+    {
+      "prefab": "relic_altar",
+      "pos": [
+        616,
+        288
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "relic_id": "silex_vivace",
+            "name": "Silex Vivace"
+          }
+        }
+      }
+    },
+    {
+      "prefab": "levier",
+      "pos": [
+        664,
+        208
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "link": "l1"
+          }
+        }
+      }
+    },
+    {
+      "prefab": "porte",
+      "pos": [
+        728,
+        288
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "link": "l1"
+          }
+        }
+      }
+    },
+    {
+      "prefab": "scie",
+      "pos": [
+        856,
+        176
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "dx": 0,
+            "dy": -40,
+            "speed": 35
+          }
+        }
+      }
+    },
+    {
+      "prefab": "ember",
+      "pos": [
+        856,
+        184
+      ]
+    },
+    {
+      "prefab": "planches",
+      "pos": [
+        1000,
+        288
+      ]
+    },
+    {
+      "prefab": "automate",
+      "pos": [
+        1032,
+        288
+      ]
+    },
+    {
+      "prefab": "planches",
+      "pos": [
+        1064,
+        288
+      ]
+    },
+    {
+      "prefab": "ember",
+      "pos": [
+        1032,
+        264
+      ]
+    },
+    {
+      "prefab": "fourneau",
+      "pos": [
+        1160,
+        208
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "link": "four1"
+          }
+        }
+      }
+    },
+    {
+      "prefab": "platform",
+      "pos": [
+        1120,
+        288
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "dx": 0,
+            "dy": -176,
+            "speed": 45,
+            "link": "four1"
+          }
+        }
+      }
+    },
+    {
+      "prefab": "pilon",
+      "pos": [
+        1352,
+        32
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "dy": 40,
+            "wait": 1.5
+          }
+        }
+      }
+    },
+    {
+      "prefab": "ember",
+      "pos": [
+        1384,
+        72
+      ]
+    },
+    {
+      "prefab": "brazier",
+      "pos": [
+        1608,
+        112
+      ]
+    },
+    {
+      "prefab": "portail",
+      "pos": [
+        1688,
+        112
+      ]
+    },
+    {
+      "prefab": "suie",
+      "pos": [
+        808,
+        168
+      ]
+    }
+  ]
+}

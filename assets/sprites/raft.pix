@@ -1,0 +1,16 @@
+// raft, floats and drifts
+// made by tools/bggen.py, change it there
+size 32 8
+origin 16 0
+palette
+q #1c3f6e
+
+frame 0
+tTTTTTTttTTTTTTttTTTTTTttTTTTTTt
+TNNNNNNTTNNNNNNTTNNNNNNTTNNNNNNT
+TNnNNNNTTNNNnNNTTNnNNNNTTNNNnNNT
+tttttttttttttttttttttttttttttttt
+kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+..qqqq....qqqq....qqqq....qqqq..
+................................
+................................

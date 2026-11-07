@@ -1,0 +1,7 @@
+# a burst of flame
+wave noise
+freq 900 -> 3500
+attack 0.005
+sustain 0.06
+decay 0.18
+volume 0.35

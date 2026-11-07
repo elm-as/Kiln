@@ -1,0 +1,29 @@
+// only there in the light
+// made by tools/bggen.py, change it there
+size 32 6
+origin 16 0
+palette
+e #241c32
+E #3a2c52
+c #6a4aa0
+C #c8a8ff
+
+frame solid
+cCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCc
+cEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEc
+ceeeeeeeeeeeeeeeeeeeeeeeeeeeeeec
+.ceeeeeeeeeeeeeeeeeeeeeeeeeeeec.
+..cccccccccccccccccccccccccccc..
+................................
+
+frame faint
+c...c...c...c...c...c...c...c...
+................................
+..c...c...c...c...c...c...c...c.
+................................
+................................
+................................
+
+anim solid 1 once solid
+
+anim faint 1 once faint

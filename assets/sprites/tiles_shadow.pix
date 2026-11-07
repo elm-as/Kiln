@@ -1,0 +1,82 @@
+// the shadows: obsidian and violet crystals
+// made by tools/bggen.py, change it there
+size 16 16
+origin 0 0
+palette
+e #16121e
+E #241c32
+h #0c0a12
+c #6a4aa0
+C #c8a8ff
+
+frame obs_a
+eeeeEEeeeeEeeeee
+heeeeeeeeeeeeeee
+eeheeeeeeeeeeeee
+eeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeee
+eeeeeheeeeeeeeee
+eeeeeehheeeeeeee
+eeEeeeeeeeeeeeee
+eeeeeeEeeeeeeeee
+eeeeeeeeeeeeeeee
+eEeeeheeeeeeeeee
+eeheeeeeeeEeeeee
+eeeeeeheeeeeeeee
+eeeeheeeeeEeeeee
+eheeeeeeheeeeeee
+Eeeeheeeeeeeeeee
+
+frame obs_b
+eheeheheeeeeeeee
+eeeeeeeeeeeeeeee
+eeeeeeeeeeehheeh
+eeecEeeeeeeeeeee
+eeeeeeeeeeeeeece
+eeeeeeeeeeehheee
+heeeeeeeeeeeeeee
+eeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeee
+eeeEeeeeeeeeeeee
+eeeeeceeeeeeeeee
+eeeeeeeeeeeeeeeh
+eeeeeeEeeeeeeeee
+eeeeeeeeeeeeeeee
+eeeeheeeeeeeeeee
+eheeeeeeeeeeeeee
+
+frame obs_top
+cccccccccccccccc
+EEEEEEEEEEEEEEEE
+eeheeeeeeeeeeeee
+eeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeee
+eeeeeheeeeeeeeee
+eeeeeehheeeeeeee
+eeEeeeeeeeeeeeee
+eeeeeeEeeeeeeeee
+eeeeeeeeeeeeeeee
+eEeeeheeeeeeeeee
+eeheeeeeeeEeeeee
+eeeeeeheeeeeeeee
+eeeeheeeeeEeeeee
+eheeeeeeheeeeeee
+Eeeeheeeeeeeeeee
+
+frame crystals
+................
+................
+................
+................
+................
+................
+................
+.....C..........
+.....C..........
+.....c......C...
+...C.c......C...
+...C.c.C....c...
+...c.c.C....c...
+...c.c.c....c...
+...c.c.c....c...
+...c.c.c....c...

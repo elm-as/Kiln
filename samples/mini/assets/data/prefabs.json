@@ -1,0 +1,28 @@
+{
+  // layers: 1 the world, 2 the hero, 4 things that touch him
+  "hero": {
+    "Sprite": { "sprite": "hero", "layer": 10 },
+    "Animator": { "play": "idle" },
+    "Body": { "type": "dynamic", "friction": 0, "max_fall": 400 },
+    "Collider": { "size": [10, 12], "offset": [0, -6], "layer": 2, "mask": 5 }
+  },
+  "coin": {
+    "Sprite": { "sprite": "coin", "layer": 5 },
+    "Animator": { "play": "spin" },
+    "Collider": { "size": [8, 8], "layer": 4, "mask": 0, "trigger": true },
+    "Script": { "module": "coin" }
+  },
+  "walker": {
+    "Sprite": { "sprite": "walker", "layer": 8 },
+    "Animator": { "play": "walk" },
+    "Body": { "type": "dynamic", "friction": 0 },
+    "Collider": { "size": [10, 8], "offset": [0, -4], "layer": 4, "mask": 1 },
+    "Script": { "module": "walker", "props": { "dir": -1, "speed": 30 } }
+  },
+  "lift": {
+    "Sprite": { "sprite": "tiles", "frame": "ledge", "layer": 3 },
+    "Body": { "type": "kinematic", "gravity": 0 },
+    "Collider": { "size": [16, 4], "offset": [8, 2], "layer": 1, "mask": 7, "oneway": true },
+    "Script": { "module": "lift", "props": { "dx": 0, "dy": -48, "speed": 30 } }
+  }
+}

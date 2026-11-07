@@ -1,0 +1,103 @@
+// the sky: clouds to land on, floating stone
+// made by tools/bggen.py, change it there
+size 16 16
+origin 0 0
+palette
+a #fff4f0
+A #ffffff
+z #e0c8d8
+e #6a5a78
+E #80709a
+h #4a3e58
+g #6bb04c
+G #3f7a3a
+
+frame cloud
+................
+..AA.....AAA....
+.AaaA....aaa....
+AAAaaA..AaaaA..A
+aaaaaaAAaaaAaAAa
+aAaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaa
+aaaaaaaaaAaaaaaa
+aaaAaAaaaaaaaAaA
+aaaaAaaaaaaaaaaa
+aaaaaaaaaAaaAaaA
+aaaaaaAAaaaaaaaa
+.zz.zz.zz.zz.zz.
+zz.zz.zz.zz.zz.z
+................
+................
+
+frame stone_a
+eeeeeeeeheeeeeee
+eeeeeeeeeeeeeeee
+eeeEeeeeeeEeeeee
+eeeeeeeeeeeeeeee
+eeeeeeeeEeeeeeee
+eeeEEeeeeeeeeeeE
+eeEeehheeeeeeeee
+eeeeeeeeeeeeeeee
+EeeeEeeeeeeeheee
+eeheeeeeeeeeeeee
+eheEheeeheeeeeee
+eeeeeeeeeeeeeeee
+eeeeeeeEeeheeeee
+eeeeeEEeeheeeeee
+eeheeeeeEeeEeeee
+eeeeEeeeeeeeeeeh
+
+frame stone_b
+eeeeeeeeeeeeEeee
+eeeeeheeeeeeeeee
+eheEeeeeeeeeeeee
+eeeeeeeeeEeeeeee
+eeeeeeeeeeeeeeEe
+eeeeeeeeeeeeeeee
+heeeeeeeeeeeeeee
+EeeeeeEeeeeeeeee
+eeeeeeeeeeeEeeee
+eeheeeeeeeheeEee
+eeeeeeeeEeeeeeee
+eeeeeeeeeEeeeeeE
+eeeheeheEeeeeeee
+eeeeheeeeeeeeeEe
+heheeeeeeeeeeeEe
+ehehEeeeeeeeeeee
+
+frame stone_top
+gg.gggg.gggg.ggg
+gggggggggggggggg
+gGGgGGgGGgGGgGGg
+GeeGeeGeeGeeGeeG
+eeeeeeeeEeeeeeee
+eeeEEeeeeeeeeeeE
+eeEeehheeeeeeeee
+eeeeeeeeeeeeeeee
+EeeeEeeeeeeeheee
+eeheeeeeeeeeeeee
+eheEheeeheeeeeee
+eeeeeeeeeeeeeeee
+eeeeeeeEeeheeeee
+eeeeeEEeeheeeeee
+eeheeeeeEeeEeeee
+eeeeEeeeeeeeeeeh
+
+frame flowers
+................
+................
+................
+................
+................
+................
+................
+................
+................
+................
+................
+..y....w...y..p.
+..g....g...g..g.
+..g....g...g..g.
+..g....g...g..g.
+..g....g...g..g.

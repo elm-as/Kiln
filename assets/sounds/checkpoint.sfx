@@ -1,0 +1,8 @@
+wave triangle
+freq 440
+attack 0.005
+sustain 0.12
+decay 0.45
+volume 0.4
+arp 1.335 0.09
+vibrato 6 0.01

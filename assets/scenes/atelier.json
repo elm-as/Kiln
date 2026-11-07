@@ -1,0 +1,394 @@
+{
+  "props": {
+    "music": "forge",
+    "ambient": "#6a4a44",
+    "sky_top": "#140a0a",
+    "sky_bottom": "#3a1a14",
+    "parallax": [
+      {
+        "sprite": "fr_smoke",
+        "speed": 0.08,
+        "anchor": "top",
+        "drift": 2
+      },
+      {
+        "sprite": "fr_far",
+        "speed": 0.12,
+        "offset": 8,
+        "gap": 30
+      },
+      {
+        "sprite": "fr_mid",
+        "speed": 0.3,
+        "offset": 0,
+        "gap": 60
+      },
+      {
+        "sprite": "fr_near",
+        "speed": 0.55,
+        "offset": -10
+      }
+    ],
+    "title": "forge · l’atelier",
+    "outro": "atelier_fin"
+  },
+  "tiles": [
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM",
+    "M.......|.....|.|.MMMMMMMMMMMM............|..........|..|..............|..........|.|..|......|....M",
+    "M.................MMMMMMMMMMMM.....................................................................M",
+    "M.................MMMMMMMMMMMM.....................................................................M",
+    "M.................MMMMMMMMMMMM.....................................................................M",
+    "M.................MMMMMMMMMMMM.....................................................................M",
+    "M.................MMMMMMMMMMMM.....................................................................M",
+    "M.................MMMMMMMMMMMM......................................................MMMMMMMMMMMMMMMM",
+    "M.................MMMMMMMMMMMM......................................................MMMMMMMMMMMMMMMM",
+    "M.................MMMMMMMMMMMM......................................................MMMMMMMMMMMMMMMM",
+    "M....................|.........................................................MMM..MMMMMMMMMMMMMMMM",
+    "M.....................................HHHHHHHH......................................MMMMMMMMMMMMMMMM",
+    "M.....................................MMMMMMMM......................................MMMMMMMMMMMMMMMM",
+    "M.....................................MMMMMMMM......................................MMMMMMMMMMMMMMMM",
+    "M.....................................MMMMMMMM..............q......................qMMMMMMMMMMMMMMMM",
+    "MMMMMMMMMMMMMMMMM<<<<<<<<<<<<<MM%%%%%%MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM%%%%%%MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM%%%%%%MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM%%%%%%MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM"
+  ],
+  "back": [
+    "....................................................................................................",
+    "......MMM...MMMMMM..............M...MMMM.....MMMMMM.MMMMM.....M.MM...MMMMMM.....M...MMMM........MM..",
+    "...MMM......MMMM................M.....MMMM...MMMMMMMMMMM....MM..MM...MMMMM..........MMM.........MMM.",
+    ".................M............M.....................................................................",
+    ".................M............M...................................................................M.",
+    ".................M............M...................................................................M.",
+    ".M..................................................................................................",
+    ".M..................................................................................................",
+    ".M...............M..................................................................................",
+    ".................M............M....................................................M................",
+    ".................MMMMMMMMM....M....................................................M................",
+    "..................MMMMMMMM....................................................MM.MMM................",
+    ".M.............................................................................MM...................",
+    ".M...................................M........M.....................................................",
+    ".....................................M..............................................................",
+    ".....................................M..............................................................",
+    ".....................................M..............................................................",
+    ".....................................M..............................................................",
+    "................................M....M..............................................................",
+    "MMMMMM...M..MM......MM....M...MMM....M.MMM...M..MMM.MM..MMMM......MMMMMM......MMM.MMMMM...MMM......."
+  ],
+  "entities": [
+    {
+      "prefab": "tapis",
+      "pos": [
+        376,
+        256
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "w": 208,
+            "push": -45
+          }
+        }
+      }
+    },
+    {
+      "prefab": "start",
+      "pos": [
+        56,
+        256
+      ]
+    },
+    {
+      "prefab": "torche",
+      "pos": [
+        88,
+        256
+      ]
+    },
+    {
+      "prefab": "braise",
+      "pos": [
+        136,
+        256
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "dialogue": "forge_debut",
+            "hint": "frappe les leviers…"
+          }
+        }
+      }
+    },
+    {
+      "prefab": "sign",
+      "pos": [
+        168,
+        256
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "text": "frappe le levier : la lance ou une flèche"
+          }
+        }
+      }
+    },
+    {
+      "prefab": "levier",
+      "pos": [
+        200,
+        256
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "link": "l1"
+          }
+        }
+      }
+    },
+    {
+      "prefab": "porte",
+      "pos": [
+        248,
+        256
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "link": "l1"
+          }
+        }
+      }
+    },
+    {
+      "prefab": "pilon",
+      "pos": [
+        344,
+        176
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "dy": 40,
+            "wait": 1.4
+          }
+        }
+      }
+    },
+    {
+      "prefab": "pilon",
+      "pos": [
+        424,
+        176
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "dy": 40,
+            "wait": 1.4,
+            "delay": 0.9
+          }
+        }
+      }
+    },
+    {
+      "prefab": "ember",
+      "pos": [
+        376,
+        216
+      ]
+    },
+    {
+      "prefab": "sign",
+      "pos": [
+        488,
+        256
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "text": "le métal en fusion te relance, comme la lave"
+          }
+        }
+      }
+    },
+    {
+      "prefab": "ember",
+      "pos": [
+        568,
+        184
+      ]
+    },
+    {
+      "prefab": "brazier",
+      "pos": [
+        696,
+        192
+      ]
+    },
+    {
+      "prefab": "scie",
+      "pos": [
+        800,
+        248
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "dx": 80,
+            "speed": 50
+          }
+        }
+      }
+    },
+    {
+      "prefab": "scie",
+      "pos": [
+        920,
+        200
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "dx": 0,
+            "dy": 48,
+            "speed": 40
+          }
+        }
+      }
+    },
+    {
+      "prefab": "ember",
+      "pos": [
+        872,
+        200
+      ]
+    },
+    {
+      "prefab": "automate",
+      "pos": [
+        984,
+        256
+      ]
+    },
+    {
+      "prefab": "sign",
+      "pos": [
+        1032,
+        256
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "text": "ce levier ne tient pas longtemps. cours !"
+          }
+        }
+      }
+    },
+    {
+      "prefab": "levier",
+      "pos": [
+        1064,
+        256
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "link": "l2",
+            "time": 2.5
+          }
+        }
+      }
+    },
+    {
+      "prefab": "porte",
+      "pos": [
+        1208,
+        256
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "link": "l2"
+          }
+        }
+      }
+    },
+    {
+      "prefab": "ember",
+      "pos": [
+        1128,
+        216
+      ]
+    },
+    {
+      "prefab": "sign",
+      "pos": [
+        1240,
+        256
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "text": "ce fourneau est bien haut… une flèche de feu ?"
+          }
+        }
+      }
+    },
+    {
+      "prefab": "fourneau",
+      "pos": [
+        1288,
+        176
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "link": "four1"
+          }
+        }
+      }
+    },
+    {
+      "prefab": "platform",
+      "pos": [
+        1312,
+        256
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "dx": 0,
+            "dy": -128,
+            "speed": 40,
+            "link": "four1"
+          }
+        }
+      }
+    },
+    {
+      "prefab": "ember",
+      "pos": [
+        1448,
+        88
+      ]
+    },
+    {
+      "prefab": "hearth",
+      "pos": [
+        1512,
+        128
+      ]
+    },
+    {
+      "prefab": "suie",
+      "pos": [
+        808,
+        168
+      ]
+    }
+  ]
+}

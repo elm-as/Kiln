@@ -1,0 +1,8 @@
+// flying right, origin at the middle of the shaft
+size 12 3
+origin 6 1
+
+frame 0
+rr.......L..
+.rTTTTTTTLLw
+rr.......L..

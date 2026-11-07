@@ -1,0 +1,8 @@
+# bouncing off lava
+wave saw
+freq 90 -> 260
+attack 0.005
+sustain 0.04
+decay 0.2
+volume 0.35
+vibrato 30 0.1

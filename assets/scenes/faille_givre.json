@@ -1,0 +1,115 @@
+{
+  "props": {
+    "title": "caverne · la faille de givre",
+    "music": "glace",
+    "ambient": "#304259",
+    "sky_top": "#0d141e",
+    "sky_bottom": "#18263a"
+  },
+  "tiles": [
+    "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN",
+    "N......................!.......................N",
+    "N..................IIIIIIII....................N",
+    "N..====............IIIIIIII............====....N",
+    "N..............................................N",
+    "N........IIII......................IIII........N",
+    "NNNN.....IIII......................IIII.....NNNN",
+    "N..................========....................N",
+    "N........====......................====........N",
+    "N..............................................N",
+    "N..................IIIIIIII....................N",
+    "N..====............IIIIIIII............====....N",
+    "N..............................................N",
+    "NNNNNN....................................NNNNNN",
+    "NNNNNN.....NNNN..............NNNN.........NNNNNN",
+    "NNNNNN%%%%%NNNN..............NNNN%%%%%%%%%NNNNNN",
+    "NNNNNNNNNNNNNNN..............NNNNNNNNNNNNNNNNNNN",
+    "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN"
+  ],
+  "back": [
+    "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN",
+    "N..............................................N",
+    "N..NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN..N",
+    "N..N........................................N..N",
+    "N..N........................................N..N",
+    "N..N........................................N..N",
+    "N..N........................................N..N",
+    "N..N........................................N..N",
+    "N..N........................................N..N",
+    "N..N........................................N..N",
+    "N..N........................................N..N",
+    "N..N........................................N..N",
+    "N..N........................................N..N",
+    "N..N........................................N..N",
+    "N..N........................................N..N",
+    "N..NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN..N",
+    "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN",
+    "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN"
+  ],
+  "entities": [
+    {
+      "prefab": "start",
+      "pos": [64, 192]
+    },
+    {
+      "prefab": "vapeur",
+      "pos": [384, 256],
+      "set": {
+        "Script": {
+          "props": { "w": 40, "h": 160, "power": 400 }
+        }
+      }
+    },
+    {
+      "prefab": "brazier",
+      "pos": [144, 192]
+    },
+    {
+      "prefab": "brazier",
+      "pos": [624, 192]
+    },
+    {
+      "prefab": "hearth",
+      "pos": [688, 192]
+    },
+    {
+      "prefab": "relic_altar",
+      "pos": [384, 80],
+      "set": {
+        "Script": {
+          "props": { "relic_id": "coeur_cendre", "name": "Cœur de Cendre" }
+        }
+      }
+    },
+    {
+      "prefab": "passage",
+      "pos": [48, 192],
+      "set": {
+        "Script": {
+          "props": { "target": "refuge", "spawn_tag": "" }
+        }
+      }
+    },
+    {
+      "prefab": "passage",
+      "pos": [720, 192],
+      "set": {
+        "Script": {
+          "props": { "target": "roots", "spawn_tag": "" }
+        }
+      }
+    },
+    {
+      "prefab": "ember",
+      "pos": [240, 140]
+    },
+    {
+      "prefab": "ember",
+      "pos": [528, 140]
+    },
+    {
+      "prefab": "ember",
+      "pos": [384, 130]
+    }
+  ]
+}

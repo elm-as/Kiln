@@ -1,0 +1,69 @@
+// ice block that melts under her
+// made by tools/bggen.py, change it there
+size 16 16
+origin 8 0
+palette
+i #6ea8dc
+I #a8d4f4
+j #3e72ae
+J #e8f6ff
+
+frame whole
+...JJJJJJJJJJC..
+..JIiiJiiiiiiJC.
+.JiiiJIIiiIiJiJC
+jiiiJIiiiiiJiiij
+jiiJiiIiiiJiiiij
+jiJiiiiIiJiiIiIj
+jJiiIiiiJiiIiiIj
+jiiiiiiJiiiiiiJj
+jiIiIiJiiIIiiJij
+jiiIiJiiiIiiJiij
+jiiiJiiiiiiJiiij
+jiiJiiiiiiJiiiIj
+jiJiiiiiIJiiIiij
+jiiiiIiIIiiiiIij
+jiIiiIiiiiiiiiIj
+jjjjjjjjjjjjjjjj
+
+frame m1
+................
+................
+................
+.....C...CCCC...
+..CJJJJJJJJJJ...
+..JiiiiiIJiiIJ..
+.JiiiiIiJiiiIiJ.
+jIiiiiiJiiIiiiJj
+jiiIiiJiiiIiiJij
+jiiiiJiiiiIiJiij
+jiiiJiiiiiiJiiij
+jiiJiiIiIiJiiiij
+jiJiiiIiiJiiiiij
+jIiiiiiIiiiiiiij
+jiiiiiIiIIiiIiij
+jjjjjjjjjjjjjjjj
+
+frame m2
+................
+................
+................
+................
+................
+................
+................
+................
+...C............
+...JJJJJJJJJJ...
+..JiJiiiiiIJiJC.
+.JiJiiiiiiJiiiJ.
+jiJiiIiiiJIIiIij
+jiiiiiiiIiiIiiij
+jiiiiiIIiIiiiiij
+jjjjjjjjjjjjjjjj
+
+anim whole 1 once whole
+
+anim m1 1 once m1
+
+anim m2 1 once m2

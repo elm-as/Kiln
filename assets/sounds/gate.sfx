@@ -1,0 +1,7 @@
+# bars grinding
+wave noise
+freq 700 -> 300
+attack 0.02
+sustain 0.2
+decay 0.2
+volume 0.3

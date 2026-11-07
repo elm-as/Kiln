@@ -1,0 +1,63 @@
+// ground and a ledge
+size 16 16
+palette
+g #5fb04a
+G #8fd46a
+d #6b4a32
+D #82603f
+k #3a2a1e
+w #c8a878
+
+frame dirt
+dddDdddddddDdddd
+ddddddDddddddddd
+dDdddddddddddDdd
+dddddddkddddddDd
+ddddDdddddDddddd
+dddddddddddddddd
+dkddddddDddddddd
+ddddddDdddddkddd
+dddDdddddddddddd
+dddddddddDdddddd
+ddddddkddddddDdd
+dDdddddddddddddd
+dddddddDdddddddd
+ddddkdddddddDddd
+ddDdddddddddddkd
+dddddddddDdddddd
+
+frame grass
+GgGGgGGGgGGGgGGg
+gggggggggggggggg
+gdgggdggggdgggdg
+dddDdddddddDdddd
+dDdddddddddddDdd
+dddddddkddddddDd
+ddddDdddddDddddd
+dddddddddddddddd
+dkddddddDddddddd
+ddddddDdddddkddd
+dddDdddddddddddd
+dddddddddDdddddd
+ddddddkddddddDdd
+dDdddddddddddddd
+dddddddDdddddddd
+ddddkdddddddDddd
+
+frame ledge
+wwwwwwwwwwwwwwww
+kkkkkkkkkkkkkkkk
+.k............k.
+................
+................
+................
+................
+................
+................
+................
+................
+................
+................
+................
+................
+................

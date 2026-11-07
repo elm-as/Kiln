@@ -1,0 +1,7 @@
+{
+  "size": 16,
+  "tiles": {
+    "#": { "name": "dirt", "sprite": "tiles", "frames": ["dirt"], "top": "grass", "solid": true, "edges": true },
+    "=": { "name": "ledge", "sprite": "tiles", "frames": ["ledge"], "oneway": true }
+  }
+}

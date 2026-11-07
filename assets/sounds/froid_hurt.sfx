@@ -1,0 +1,7 @@
+# ice cracking all the way through
+wave noise
+freq 1400 -> 180
+attack 0.005
+sustain 0.12
+decay 0.6
+volume 0.45

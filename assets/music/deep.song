@@ -1,0 +1,39 @@
+# last level. E minor, faster, a bit more pressure
+tempo 116
+rows 4
+
+inst arp   square   vol 0.07 duty 0.125 attack 0.002 decay 0.12 sustain 0.0
+inst lead  square   vol 0.10 duty 0.4 attack 0.01 decay 0.3 sustain 0.5 release 0.1 vibrato 0.01
+inst bass  triangle vol 0.32 attack 0.004 decay 0.2 sustain 0.5 release 0.04
+inst kit   drum     vol 0.24
+
+pattern em
+arp   E4 G4 B4 G4 | E4 G4 B4 G4 | E4 G4 B4 E5 | B4 G4 E4 G4
+bass  E2 .  E2 .  | .  E2 .  .  | E2 .  E2 .  | .  D2 .  .
+kit   k  .  h  k  | s  .  h  .  | k  .  h  k  | s  .  h  h
+
+pattern em_lead
+arp   E4 G4 B4 G4 | E4 G4 B4 G4 | E4 G4 B4 E5 | B4 G4 E4 G4
+lead  E5 .  .  .  | D5 .  B4 .  | G4 .  A4 .  | B4 .  .  -
+bass  E2 .  E2 .  | .  E2 .  .  | E2 .  E2 .  | .  D2 .  .
+kit   k  .  h  k  | s  .  h  .  | k  .  h  k  | s  .  h  h
+
+pattern c
+arp   C4 E4 G4 E4 | C4 E4 G4 E4 | C4 E4 G4 C5 | G4 E4 C4 E4
+lead  E5 .  .  .  | G5 .  E5 .  | D5 .  C5 .  | B4 .  .  -
+bass  C2 .  C2 .  | .  C2 .  .  | C2 .  C2 .  | .  B1 .  .
+kit   k  .  h  k  | s  .  h  .  | k  .  h  k  | s  .  h  h
+
+pattern d
+arp   D4 F#4 A4 F#4 | D4 F#4 A4 F#4 | D4 F#4 A4 D5 | A4 F#4 D4 F#4
+lead  F#5 . .  .  | E5 .  D5 .  | A4 .  .  .  | F#4 . .  -
+bass  D2 .  D2 .  | .  D2 .  .  | D2 .  D2 .  | .  A1 .  .
+kit   k  .  h  k  | s  .  h  .  | k  .  h  k  | s  .  h  h
+
+pattern b
+arp   B3 D#4 F#4 D#4 | B3 D#4 F#4 D#4 | B3 D#4 F#4 B4 | F#4 D#4 B3 D#4
+lead  B4 .  .  .  | .  .  .  .  | D#5 . .  .  | F#5 . .  -
+bass  B1 .  B1 .  | .  B1 .  .  | B1 .  B1 .  | .  B1 .  .
+kit   k  .  h  k  | s  .  h  .  | k  k  s  k  | s  s  s  c
+
+order em em em_lead c d b em_lead c d b

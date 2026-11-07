@@ -1,0 +1,494 @@
+{
+  // layers: 1 world bodies, 2 player, 4 enemies, 8 pickups and triggers
+
+  "player": {
+    "Sprite": { "sprite": "player", "layer": 20 },
+    "Animator": { "play": "idle" },
+    "Body": { "type": "dynamic", "friction": 0, "max_fall": 380 },
+    "Collider": { "size": [8, 11], "offset": [0, -5.5], "layer": 2, "mask": 13 },
+    "Light": { "radius": 78, "color": "#ffb070", "flicker": 0.12, "offset": [0, -6] },
+    "Player": {}
+  },
+
+  "start": {
+    "Sprite": { "sprite": "props", "frame": "start", "visible": false }
+  },
+
+  "ember": {
+    "Sprite": { "sprite": "ember", "layer": 5 },
+    "Animator": { "play": "spin" },
+    "Collider": { "size": [8, 8], "layer": 8, "mask": 0, "trigger": true },
+    "Light": { "radius": 22, "color": "#ffc060", "flicker": 0.3 },
+    "Script": { "module": "ember" }
+  },
+
+  "slime": {
+    "Sprite": { "sprite": "slime", "layer": 10 },
+    "Animator": { "play": "walk" },
+    "Body": { "type": "dynamic", "friction": 0 },
+    "Collider": { "size": [10, 7], "offset": [0, -3.5], "layer": 4, "mask": 1 },
+    "Script": { "module": "slime", "props": { "dir": -1, "speed": 22 } }
+  },
+
+  "bat": {
+    "Sprite": { "sprite": "bat", "layer": 11 },
+    "Animator": { "play": "hang" },
+    "Body": { "type": "dynamic", "gravity": 0, "friction": 0 },
+    "Collider": { "size": [8, 6], "layer": 4, "mask": 1 },
+    "Script": { "module": "bat", "props": { "range": 80, "speed": 48 } }
+  },
+
+  "brazier": {
+    "Sprite": { "sprite": "brazier", "layer": 4 },
+    "Animator": { "play": "cold" },
+    "Collider": { "size": [12, 14], "offset": [0, -7], "layer": 8, "mask": 0, "trigger": true },
+    "Light": { "radius": 0, "color": "#ff9a50", "flicker": 0.25, "offset": [0, -12] },
+    "Emitter": { "fx": "flame", "on": false, "offset": [0, -11] },
+    "Script": { "module": "brazier" }
+  },
+
+  "hearth": {
+    "Sprite": { "sprite": "hearth", "layer": 4 },
+    "Animator": { "play": "cold" },
+    "Collider": { "size": [18, 18], "offset": [0, -9], "layer": 8, "mask": 0, "trigger": true },
+    "Light": { "radius": 0, "color": "#ff9040", "flicker": 0.2, "offset": [0, -16] },
+    "Emitter": { "fx": "flame_big", "on": false, "offset": [0, -15] },
+    "Script": { "module": "hearth" }
+  },
+
+  "crate": {
+    "Sprite": { "sprite": "props", "frame": "crate", "layer": 6 },
+    "Body": { "type": "dynamic", "mass": 2.5, "friction": 0.9 },
+    "Collider": { "size": [16, 16], "offset": [0, -8], "layer": 1, "mask": 7 }
+  },
+
+  "platform": {
+    "Sprite": { "sprite": "platform", "layer": 3 },
+    "Body": { "type": "kinematic", "gravity": 0 },
+    "Collider": { "size": [32, 6], "offset": [0, 3], "layer": 1, "mask": 7, "oneway": true },
+    "Script": { "module": "platform", "props": { "dx": 64, "dy": 0, "speed": 40 } }
+  },
+
+  "crumble": {
+    "Sprite": { "sprite": "crumble", "layer": 3 },
+    "Animator": { "play": "whole" },
+    "Body": { "type": "kinematic", "gravity": 0 },
+    "Collider": { "size": [16, 7], "offset": [0, 3.5], "layer": 1, "mask": 7 },
+    "Script": { "module": "crumble", "props": { "delay": 0.45, "respawn": 2.5 } }
+  },
+
+  "spring": {
+    "Sprite": { "sprite": "spring", "layer": 5 },
+    "Animator": { "play": "idle" },
+    "Collider": { "size": [12, 6], "offset": [0, -4], "layer": 8, "mask": 0, "trigger": true },
+    "Script": { "module": "spring", "props": { "power": 430 } }
+  },
+
+  "braise": {
+    "Sprite": { "sprite": "braise", "layer": 8 },
+    "Animator": { "play": "idle" },
+    "Light": { "radius": 30, "color": "#c05028", "flicker": 0.4, "offset": [0, -5] },
+    "Script": { "module": "braise", "props": { "dialogue": "", "hint": "" } }
+  },
+
+  "sign": {
+    "Sprite": { "sprite": "props", "frame": "sign", "layer": 2 },
+    "Script": { "module": "sign", "props": { "text": "hello" } }
+  },
+
+  "torch": {
+    "Sprite": { "sprite": "torch", "layer": 2 },
+    "Animator": { "play": "burn" },
+    "Light": { "radius": 56, "color": "#ff9a50", "flicker": 0.35, "offset": [0, -13] },
+    "Emitter": { "fx": "torch", "offset": [0, -14] }
+  },
+
+  "crystal": {
+    "Sprite": { "sprite": "props", "frame": "crystal", "layer": 2 },
+    "Light": { "radius": 44, "color": "#58c8e8", "flicker": 0.05, "offset": [0, -7] }
+  },
+
+  "torche": {
+    "Sprite": { "sprite": "torche", "layer": 4 },
+    "Animator": { "play": "cold" },
+    "Collider": { "size": [12, 24], "offset": [0, -12], "layer": 8, "mask": 0, "trigger": true },
+    "Light": { "radius": 0, "color": "#ffa050", "flicker": 0.3, "offset": [0, -22] },
+    "Emitter": { "fx": "flame", "on": false, "offset": [0, -22] },
+    "Script": { "module": "torche" }
+  },
+
+  "portail": {
+    "Sprite": { "sprite": "portal", "layer": 4 },
+    "Animator": { "play": "spin" },
+    "Collider": { "size": [14, 26], "offset": [0, -14], "layer": 8, "mask": 0, "trigger": true },
+    "Light": { "radius": 64, "color": "#a070ff", "flicker": 0.15, "offset": [0, -16] },
+    "Emitter": { "fx": "portal", "offset": [0, -16] },
+    "Script": { "module": "portal" }
+  },
+
+  "passage": {
+    "Sprite": { "sprite": "portal", "layer": 4, "tint": "#80d0ff" },
+    "Animator": { "play": "spin" },
+    "Collider": { "size": [14, 26], "offset": [0, -14], "layer": 8, "mask": 0, "trigger": true },
+    "Light": { "radius": 48, "color": "#60b0ff", "flicker": 0.15, "offset": [0, -16] },
+    "Emitter": { "fx": "portal", "offset": [0, -16] },
+    "Script": { "module": "door", "props": { "target": "", "spawn_tag": "", "power_req": "" } }
+  },
+
+  "radeau": {
+    "Sprite": { "sprite": "raft", "layer": 3 },
+    "Body": { "type": "kinematic", "gravity": 0 },
+    "Collider": { "size": [32, 5], "offset": [0, 2.5], "layer": 1, "mask": 7, "oneway": true },
+    "Script": { "module": "raft", "props": { "dx": 0, "dy": 0, "speed": 24, "bob": 1.5, "sink": 0 } }
+  },
+
+  "radeau_coule": {
+    "Sprite": { "sprite": "raft", "layer": 3, "tint": "#c8b8a0" },
+    "Body": { "type": "kinematic", "gravity": 0 },
+    "Collider": { "size": [32, 5], "offset": [0, 2.5], "layer": 1, "mask": 7, "oneway": true },
+    "Script": { "module": "raft", "props": { "dx": 0, "dy": 0, "speed": 24, "bob": 1, "sink": 1 } }
+  },
+
+  "bateau": {
+    "Sprite": { "sprite": "boat", "layer": 3 },
+    "Body": { "type": "kinematic", "gravity": 0 },
+    "Collider": { "size": [48, 6], "offset": [0, 3], "layer": 1, "mask": 7, "oneway": true },
+    "Script": { "module": "raft", "props": { "dx": 160, "dy": 0, "speed": 30, "bob": 1, "sink": 0 } }
+  },
+
+  "ballon": {
+    "Sprite": { "sprite": "balloon", "layer": 12 },
+    "Collider": { "size": [10, 12], "offset": [0, -21], "layer": 4, "mask": 0 },
+    "Light": { "radius": 16, "color": "#ff8080", "offset": [0, -21] },
+    "Script": { "module": "balloon" }
+  },
+
+  "planche": {
+    "Sprite": { "sprite": "plank", "layer": 3 },
+    "Body": { "type": "kinematic", "gravity": 0 },
+    "Collider": { "size": [32, 5], "offset": [0, 2.5], "layer": 1, "mask": 7, "oneway": true },
+    "Script": { "module": "plank", "props": { "fall_to": 0, "dx": 0, "dy": 0, "speed": 20, "bob": 1.5 } }
+  },
+
+  "glacon": {
+    "Sprite": { "sprite": "ice_block", "layer": 3 },
+    "Animator": { "play": "whole" },
+    "Body": { "type": "kinematic", "gravity": 0 },
+    "Collider": { "size": [16, 16], "offset": [0, 8], "layer": 1, "mask": 7 },
+    "Script": { "module": "melt", "props": { "time": 0.9, "respawn": 4 } }
+  },
+
+  "mur_glace": {
+    "Sprite": { "sprite": "ice_wall", "layer": 3 },
+    "Animator": { "play": "whole" },
+    "Body": { "type": "kinematic", "gravity": 0 },
+    "Collider": { "size": [16, 48], "offset": [0, -24], "layer": 1, "mask": 7 },
+    "Script": { "module": "icewall", "props": { "time": 1.6 } }
+  },
+
+  "stalactite": {
+    "Sprite": { "sprite": "stalactite", "layer": 9 },
+    "Body": { "type": "dynamic", "gravity": 0, "friction": 0, "max_fall": 340 },
+    "Collider": { "size": [6, 12], "offset": [0, 3], "layer": 4, "mask": 1 },
+    "Script": { "module": "stalactite", "props": { "regrow": 3 } }
+  },
+
+  "feu": {
+    "Sprite": { "sprite": "brazier", "layer": 4 },
+    "Animator": { "play": "lit" },
+    "Light": { "radius": 64, "color": "#ff9a50", "flicker": 0.25, "offset": [0, -12] },
+    "Emitter": { "fx": "flame", "offset": [0, -11] }
+  },
+
+  "chauve_givre": {
+    "Sprite": { "sprite": "bat", "layer": 11, "tint": "#b0dcff" },
+    "Animator": { "play": "hang" },
+    "Body": { "type": "dynamic", "gravity": 0, "friction": 0 },
+    "Collider": { "size": [8, 6], "layer": 4, "mask": 1 },
+    "Light": { "radius": 14, "color": "#80c0ff" },
+    "Script": { "module": "bat", "props": { "range": 90, "speed": 55 } }
+  },
+
+  "slime_givre": {
+    "Sprite": { "sprite": "slime_ice", "layer": 10 },
+    "Animator": { "play": "walk" },
+    "Body": { "type": "dynamic", "friction": 0 },
+    "Collider": { "size": [10, 7], "offset": [0, -3.5], "layer": 4, "mask": 1 },
+    "Script": { "module": "slime", "props": { "dir": -1, "speed": 18 } }
+  },
+
+  "flocons": {
+    "Emitter": { "fx": "snow" },
+    "Script": { "module": "motes" }
+  },
+
+  "courant": {
+    "Script": { "module": "updraft", "props": { "w": 32, "h": 96, "power": 2000 } }
+  },
+
+  "vapeur": {
+    "Script": { "module": "steam_vent", "props": { "w": 32, "h": 110, "power": 380 } }
+  },
+
+  "relic_altar": {
+    "Sprite": { "sprite": "props", "frame": "crystal", "layer": 4 },
+    "Collider": { "size": [14, 16], "offset": [0, -8], "layer": 8, "mask": 0, "trigger": true },
+    "Light": { "radius": 40, "color": "#ffb060", "flicker": 0.2, "offset": [0, -10] },
+    "Emitter": { "fx": "sparkle", "offset": [0, -10] },
+    "Script": { "module": "relic_altar", "props": { "relic_id": "coeur_cendre", "name": "Cœur de Cendre" } }
+  },
+
+  "turbine": {
+    "Sprite": { "sprite": "windmill", "layer": 3 },
+    "Animator": { "play": "spin" },
+    "Collider": { "size": [24, 24], "offset": [0, -12], "layer": 1, "mask": 0 },
+    "Script": { "module": "turbine", "props": { "link": "", "vent_link": "" } }
+  },
+
+  "rafale": {
+    "Script": { "module": "gust", "props": { "w": 96, "h": 64, "push": -70, "on": 2, "off": 0 } }
+  },
+
+  "nuage_pluie": {
+    "Sprite": { "sprite": "raincloud", "layer": 12 },
+    "Emitter": { "fx": "rain", "on": false, "offset": [0, 7] },
+    "Script": { "module": "raincloud", "props": { "rain": 1.6, "dry": 2, "depth": 160 } }
+  },
+
+  "moulin": {
+    "Sprite": { "sprite": "windmill", "layer": 3 },
+    "Animator": { "play": "still" },
+    "Collider": { "size": [24, 24], "offset": [0, -30], "layer": 4, "mask": 0 },
+    "Script": { "module": "windmill", "props": { "link": "moulin", "spinning": false } }
+  },
+
+  "oiseau": {
+    "Sprite": { "sprite": "bird", "layer": 11 },
+    "Animator": { "play": "fly" },
+    "Body": { "type": "kinematic", "gravity": 0 },
+    "Collider": { "size": [9, 6], "layer": 4, "mask": 0 },
+    "Script": { "module": "bird", "props": { "dx": 96, "speed": 40 } }
+  },
+
+  "brise": {
+    "Emitter": { "fx": "breeze" },
+    "Script": { "module": "motes" }
+  },
+
+  "froid": {
+    "Sprite": { "sprite": "froid", "layer": 14 },
+    "Animator": { "play": "idle" },
+    "Body": { "type": "kinematic", "gravity": 0 },
+    "Collider": { "size": [26, 30], "layer": 4, "mask": 0 },
+    "Light": { "radius": 70, "color": "#80c0ff", "flicker": 0.2 },
+    "Script": { "module": "froid", "props": { "hp": 6, "need": 4, "range": 150, "drop": 85, "ceiling": 24,
+                                              "portal_x": 360, "portal_y": 176 } }
+  },
+
+  "eclat": {
+    "Sprite": { "sprite": "stalactite", "layer": 9 },
+    "Body": { "type": "dynamic", "gravity": 0, "friction": 0, "max_fall": 360 },
+    "Collider": { "size": [6, 12], "offset": [0, 3], "layer": 4, "mask": 1 },
+    "Script": { "module": "stalactite", "props": { "regrow": 0, "once": true } }
+  },
+
+  "trait_givre": {
+    "Sprite": { "sprite": "frostbolt", "layer": 13 },
+    "Animator": { "play": "spin" },
+    "Body": { "type": "kinematic", "gravity": 0 },
+    "Collider": { "size": [6, 6], "layer": 4, "mask": 0 },
+    "Light": { "radius": 16, "color": "#80c0ff" },
+    "Script": { "module": "frostbolt", "props": { "speed": 110 } }
+  },
+
+  "levier": {
+    "Sprite": { "sprite": "lever", "layer": 4 },
+    "Animator": { "play": "off" },
+    "Collider": { "size": [12, 16], "offset": [0, -8], "layer": 4, "mask": 0 },
+    "Script": { "module": "lever", "props": { "link": "levier", "time": 0 } }
+  },
+
+  "porte": {
+    "Sprite": { "sprite": "gate", "layer": 3 },
+    "Animator": { "play": "shut" },
+    "Body": { "type": "kinematic", "gravity": 0 },
+    "Collider": { "size": [12, 48], "offset": [0, -24], "layer": 1, "mask": 7 },
+    "Script": { "module": "gate", "props": { "link": "levier", "invert": false } }
+  },
+
+  "pilon": {
+    "Sprite": { "sprite": "press", "layer": 5 },
+    "Body": { "type": "kinematic", "gravity": 0 },
+    "Collider": { "size": [30, 40], "offset": [0, 20], "layer": 1, "mask": 7 },
+    "Script": { "module": "crusher", "props": { "dy": 64, "wait": 1.6, "h": 40 } }
+  },
+
+  "scie": {
+    "Sprite": { "sprite": "saw", "layer": 9 },
+    "Animator": { "play": "spin" },
+    "Body": { "type": "kinematic", "gravity": 0 },
+    "Collider": { "size": [12, 12], "layer": 4, "mask": 0 },
+    "Script": { "module": "saw", "props": { "dx": 64, "dy": 0, "speed": 50 } }
+  },
+
+  "planches": {
+    "Sprite": { "sprite": "fragile", "layer": 3 },
+    "Body": { "type": "kinematic", "gravity": 0 },
+    "Collider": { "size": [14, 32], "offset": [0, -16], "layer": 1, "mask": 7 },
+    "Script": { "module": "fragile" }
+  },
+
+  "fourneau": {
+    "Sprite": { "sprite": "furnace", "layer": 4 },
+    "Animator": { "play": "cold" },
+    "Collider": { "size": [20, 20], "offset": [0, -10], "layer": 8, "mask": 0, "trigger": true },
+    "Light": { "radius": 0, "color": "#ff8a40", "flicker": 0.3, "offset": [0, -8] },
+    "Emitter": { "fx": "flame", "on": false, "offset": [0, -26] },
+    "Script": { "module": "brazier", "props": { "link": "four", "machine": true } }
+  },
+
+  "tapis": {
+    "Script": { "module": "gust", "props": { "w": 64, "h": 18, "push": -50, "on": 1, "off": 0 } }
+  },
+
+  "automate": {
+    "Sprite": { "sprite": "automaton", "layer": 10 },
+    "Animator": { "play": "walk" },
+    "Body": { "type": "dynamic", "friction": 0 },
+    "Collider": { "size": [10, 10], "offset": [0, -5], "layer": 4, "mask": 1 },
+    "Script": { "module": "slime", "props": { "dir": -1, "speed": 30 } }
+  },
+
+  "suie": {
+    "Emitter": { "fx": "cinders" },
+    "Script": { "module": "motes" }
+  },
+
+  "plateforme_ombre": {
+    "Sprite": { "sprite": "shadow_plat", "layer": 3 },
+    "Animator": { "play": "solid" },
+    "Body": { "type": "kinematic", "gravity": 0 },
+    "Collider": { "size": [32, 6], "offset": [0, 3], "layer": 1, "mask": 7, "oneway": true },
+    "Script": { "module": "shadowplat", "props": { "dx": 0, "dy": 0, "speed": 0 } }
+  },
+
+  "ombre": {
+    "Sprite": { "sprite": "shade", "layer": 11 },
+    "Animator": { "play": "float" },
+    "Body": { "type": "kinematic", "gravity": 0 },
+    "Collider": { "size": [10, 10], "layer": 4, "mask": 0 },
+    "Script": { "module": "shade", "props": { "range": 110, "speed": 30 } }
+  },
+
+  "lanterne": {
+    "Sprite": { "sprite": "lantern", "layer": 4 },
+    "Animator": { "play": "cold" },
+    "Collider": { "size": [12, 18], "offset": [0, -9], "layer": 8, "mask": 0, "trigger": true },
+    "Light": { "radius": 0, "color": "#ffd080", "flicker": 0.15, "offset": [0, -10] },
+    "Script": { "module": "brazier", "props": { "link": "lanterne", "machine": true, "radius": 110,
+                                                "msg": "la lanterne repousse l’ombre" } }
+  },
+
+  "nuit": {
+    "Sprite": { "sprite": "nuit", "layer": 14 },
+    "Animator": { "play": "idle" },
+    "Body": { "type": "kinematic", "gravity": 0 },
+    "Collider": { "size": [40, 32], "layer": 4, "mask": 0 },
+    "Light": { "radius": 70, "color": "#8a6ad0", "flicker": 0.3 },
+    "Script": { "module": "nuit", "props": { "hp": 12, "range": 150, "drop": 40, "stun_time": 3 } }
+  },
+
+  "trait_ombre": {
+    "Sprite": { "sprite": "shadowbolt", "layer": 13 },
+    "Animator": { "play": "spin" },
+    "Body": { "type": "kinematic", "gravity": 0 },
+    "Collider": { "size": [6, 6], "layer": 4, "mask": 0 },
+    "Script": { "module": "frostbolt", "props": { "speed": 120, "fx": "shadow_mist", "trail": "shadow_mist", "how": "shadow" } }
+  },
+
+  "dalle": {
+    "Sprite": { "sprite": "tiles_shadow", "frame": "obs_top", "layer": 3 },
+    "Body": { "type": "kinematic", "gravity": 0 },
+    "Collider": { "size": [16, 16], "offset": [8, 8], "layer": 1, "mask": 7 },
+    "Script": { "module": "floortile", "props": { "link": "phase2" } }
+  },
+
+  "brume": {
+    "Emitter": { "fx": "shadow_amb" },
+    "Script": { "module": "motes" }
+  },
+
+  "poisson": {
+    "Sprite": { "sprite": "fish", "layer": 12 },
+    "Animator": { "play": "swim" },
+    "Body": { "type": "dynamic", "gravity": 0, "friction": 0, "tiles": false, "max_fall": 400 },
+    "Collider": { "size": [10, 6], "layer": 4, "mask": 0 },
+    "Script": { "module": "fish", "props": { "period": 2.4, "power": 290, "drift": 0 } }
+  },
+
+  "crabe": {
+    "Sprite": { "sprite": "creatures", "frame": "crab0", "layer": 10 },
+    "Animator": { "play": "walk" },
+    "Body": { "type": "dynamic", "friction": 0 },
+    "Collider": { "size": [10, 6], "offset": [0, -3], "layer": 4, "mask": 1 },
+    "Script": { "module": "slime", "props": { "dir": -1, "speed": 26 } }
+  },
+
+  "magma": {
+    "Sprite": { "sprite": "magma", "layer": 10 },
+    "Animator": { "play": "walk" },
+    "Body": { "type": "dynamic", "friction": 0 },
+    "Collider": { "size": [10, 7], "offset": [0, -3.5], "layer": 4, "mask": 1 },
+    "Light": { "radius": 22, "color": "#ff6030", "flicker": 0.2, "offset": [0, -4] },
+    "Script": { "module": "slime", "props": { "dir": -1, "speed": 30 } }
+  },
+
+  "chauve_feu": {
+    "Sprite": { "sprite": "firebat", "layer": 11 },
+    "Animator": { "play": "hang" },
+    "Body": { "type": "dynamic", "gravity": 0, "friction": 0 },
+    "Collider": { "size": [8, 6], "layer": 4, "mask": 1 },
+    "Light": { "radius": 18, "color": "#ff8040", "flicker": 0.3 },
+    "Script": { "module": "bat", "props": { "range": 90, "speed": 62 } }
+  },
+
+  "goutteur": {
+    "Sprite": { "sprite": "drops", "frame": "dripper", "layer": 2 },
+    "Script": { "module": "dripper", "props": { "period": 1.6, "delay": 0 } }
+  },
+
+  "goutte": {
+    "Sprite": { "sprite": "drops", "frame": "drop", "layer": 9 },
+    "Body": { "type": "dynamic", "friction": 0, "max_fall": 300 },
+    "Collider": { "size": [4, 5], "layer": 4, "mask": 0 },
+    "Light": { "radius": 10, "color": "#5fd4e8" },
+    "Script": { "module": "drop" }
+  },
+
+  "champignon": {
+    "Sprite": { "sprite": "champignon", "layer": 5 },
+    "Animator": { "play": "idle" },
+    "Collider": { "size": [12, 6], "offset": [0, -5], "layer": 8, "mask": 0, "trigger": true },
+    "Script": { "module": "spring", "props": { "power": 470 } }
+  },
+
+  "feuilles": {
+    "Emitter": { "fx": "leaves" },
+    "Script": { "module": "motes" }
+  },
+
+  "cendres": {
+    "Emitter": { "fx": "cinders" },
+    "Script": { "module": "motes" }
+  },
+
+  "embruns": {
+    "Emitter": { "fx": "spray" },
+    "Script": { "module": "motes" }
+  },
+
+  "motes": {
+    "Emitter": { "fx": "motes" },
+    "Script": { "module": "motes" }
+  }
+}

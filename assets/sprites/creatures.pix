@@ -1,0 +1,42 @@
+// small things for the new worlds that don't need a file each
+size 14 10
+origin 7 10
+
+frame crab0
+..............
+.rr........rr.
+rRr........rRr
+.rr..k..k..rr.
+..r..r..r..r..
+...rrrrrrrr...
+..rRRrrrrRRr..
+..rrrrrrrrrr..
+..r.r....r.r..
+.r..r....r..r.
+
+frame crab1
+..............
+.rr........rr.
+rRr........rRr
+.rr..k..k..rr.
+..r..r..r..r..
+...rrrrrrrr...
+..rRRrrrrRRr..
+..rrrrrrrrrr..
+...r.r..r.r...
+..r..r..r..r..
+
+frame crab_flat
+..............
+..............
+..............
+..............
+..............
+..............
+..............
+..r........r..
+.rRrrrrrrrrRr.
+..rrrrrrrrrr..
+
+anim walk 5 loop crab0 crab1
+anim squish 1 once crab_flat

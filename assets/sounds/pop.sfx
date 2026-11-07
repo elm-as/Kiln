@@ -1,0 +1,7 @@
+# a balloon going
+wave noise
+freq 3000 -> 600
+attack 0.001
+sustain 0.01
+decay 0.1
+volume 0.4

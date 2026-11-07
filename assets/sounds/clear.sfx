@@ -1,0 +1,9 @@
+wave square
+freq 523
+duty 0.3
+attack 0.005
+sustain 0.2
+decay 0.6
+volume 0.25
+arp 1.5 0.12
+vibrato 6 0.01

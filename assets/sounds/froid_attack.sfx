@@ -1,0 +1,7 @@
+# a cold breath
+wave noise
+freq 600 -> 3200
+attack 0.1
+sustain 0.05
+decay 0.3
+volume 0.25

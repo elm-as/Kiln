@@ -1,0 +1,35 @@
+# the ice. Slow and far apart, glassy bells over a cold pad, every note
+# left to ring out. E minor, with a C that almost warms it up.
+tempo 60
+rows 4
+
+inst bell  triangle vol 0.11 attack 0.003 decay 2.2 sustain 0.0
+inst glass sine     vol 0.08 attack 0.002 decay 1.4 sustain 0.0
+inst pad   sine     vol 0.11 attack 1.2 decay 1.0 sustain 0.8 release 1.6 vibrato 0.003
+inst bass  sine     vol 0.20 attack 0.2 decay 1.2 sustain 0.5 release 1.0
+
+pattern em
+bell  E5 .  .  .  | B4 .  .  .  | .  .  G5 . | .  .  .  .
+glass .  .  B5 .  | .  .  .  .  | .  .  .  . | E6 .  .  .
+pad   G4 .  .  .  | .  .  .  .  | .  .  .  . | .  .  .  .
+bass  E2 .  .  .  | .  .  .  .  | .  .  .  . | B1 .  .  .
+
+pattern c
+bell  G5 .  .  .  | E5 .  .  .  | .  .  C5 . | .  .  .  .
+glass .  .  .  .  | .  .  G5 .  | .  .  .  . | .  .  .  .
+pad   E4 .  .  .  | .  .  .  .  | .  .  .  . | .  .  .  .
+bass  C2 .  .  .  | .  .  .  .  | .  .  .  . | G1 .  .  .
+
+pattern am
+bell  A4 .  .  .  | .  .  C5 .  | E5 .  .  . | .  .  .  .
+glass .  .  .  .  | .  .  .  .  | .  .  A5 . | .  .  .  .
+pad   C4 .  .  .  | .  .  .  .  | .  .  .  . | .  .  .  .
+bass  A1 .  .  .  | .  .  .  .  | .  .  .  . | E2 .  .  .
+
+pattern b
+bell  F#5 . .  .  | D#5 . .  .  | .  .  B4 . | .  .  .  .
+glass .  .  .  .  | .  .  .  .  | .  .  .  . | F#5 . .  .
+pad   D#4 . .  .  | .  .  .  .  | .  .  .  . | .  .  .  -
+bass  B1 .  .  .  | .  .  .  .  | .  .  .  . | F#1 . .  .
+
+order em c am b em c am em

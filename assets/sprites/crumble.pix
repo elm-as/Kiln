@@ -1,0 +1,26 @@
+// breaks a moment after you stand on it
+size 16 8
+origin 8 0
+
+frame whole
+kkkkkkkkkkkkkkkk
+kLLLLLLLLLLLLLLk
+kllllllllllllllk
+kSSSSSSSSSSSSSSk
+kssssssssssssssk
+kssssssssssssssk
+kddddddddddddddk
+.kkkkkkkkkkkkkk.
+
+frame cracked
+kkkkkkkkkkkkkkkk
+kLLLLLkLLLLLLLLk
+klllllklllkllllk
+kSSSSSSkSSkSSSSk
+kssssssksskssssk
+kssssskssssksssk
+kdddddkddddkdddk
+.kkkkkkkkkkkkkk.
+
+anim whole 1 once whole
+anim cracked 1 once cracked

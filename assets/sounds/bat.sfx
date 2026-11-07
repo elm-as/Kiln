@@ -1,0 +1,7 @@
+wave saw
+freq 1300 -> 1600
+attack 0.002
+sustain 0.02
+decay 0.08
+volume 0.15
+vibrato 40 0.1

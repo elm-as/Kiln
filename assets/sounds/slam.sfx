@@ -1,0 +1,7 @@
+# iron on iron
+wave noise
+freq 1800 -> 90
+attack 0.001
+sustain 0.04
+decay 0.35
+volume 0.5

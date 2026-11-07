@@ -1,0 +1,27 @@
+# the volcano. E phrygian, fast and heavy. It should feel like she's winning
+tempo 126
+rows 4
+
+inst bass  saw      vol 0.14 attack 0.003 decay 0.15 sustain 0.4 release 0.03
+inst arp   square   vol 0.07 duty 0.125 attack 0.002 decay 0.1 sustain 0.0
+inst lead  square   vol 0.10 duty 0.3 attack 0.01 decay 0.25 sustain 0.5 release 0.08 vibrato 0.015
+inst kit   drum     vol 0.26
+
+pattern riff
+bass  E2 E2 .  E2 | F2 .  E2 .  | E2 E2 .  E2 | G2 .  F2 .
+arp   E4 G4 B4 E5 | F4 A4 C5 F5 | E4 G4 B4 E5 | G4 B4 D5 G5
+kit   k  .  h  k  | s  .  h  .  | k  k  h  .  | s  .  h  s
+
+pattern riff_lead
+bass  E2 E2 .  E2 | F2 .  E2 .  | E2 E2 .  E2 | G2 .  F2 .
+arp   E4 G4 B4 E5 | F4 A4 C5 F5 | E4 G4 B4 E5 | G4 B4 D5 G5
+lead  E5 .  .  F5 | E5 .  D5 .  | E5 .  B4 .  | G4 .  .  -
+kit   k  .  h  k  | s  .  h  .  | k  k  h  .  | s  .  h  s
+
+pattern climb
+bass  A2 A2 .  A2 | G2 .  A2 .  | C3 C3 .  C3 | B2 .  G2 .
+arp   A4 C5 E5 A5 | G4 B4 D5 G5 | C5 E5 G5 C6 | B4 D5 F5 B5
+lead  A5 .  G5 .  | F5 .  E5 .  | G5 .  .  A5 | B5 .  .  -
+kit   k  .  h  k  | s  .  h  k  | k  .  h  k  | s  s  s  c
+
+order riff riff riff_lead riff_lead climb riff_lead climb riff

@@ -1,0 +1,38 @@
+// rotten planks, dash through
+// made by tools/bggen.py, change it there
+size 16 32
+origin 8 32
+
+frame 0
+kttttttttttttttk
+kTTTTnTTTTnTTTTk
+kTTTTnTTTTnTTTTk
+kTTTTnTTTTnTTTTk
+kTTTTnTTTTnTTTTk
+kTTTTnTTTTnTTTTk
+kTTTTnTTTTnTTTTk
+kttttttttttttttk
+kttttttttttttttk
+kTTTnTTTTnTTTTnk
+kTTTnTTTTnTTTTnk
+kTTTnTTTTnTTTTnk
+kTTTnTTTTnTTTTnk
+kTTTnTTTTnTTTTnk
+kTTTnTTTTnTTTTnk
+kttttttttttttttk
+kttttttttttttttk
+kTTnTTTTnTTTTnTk
+kTTnTTTTnTTTTnTk
+kTTnTTTTnTTTTnTk
+kTTnTTTTnTTTTnTk
+kTTnTTTTnTTTTnTk
+kTTnTTTTnTTTTnTk
+kttttttttttttttk
+kttttttttttttttk
+kTnTTTTnTTTTnTTk
+kTnTTTTnTTTTnTTk
+kTnTTTTnTTTTnTTk
+kTnTTTTnTTTTnTTk
+kTnTTTTnTTTTnTTk
+kTnTTTTnTTTTnTTk
+kttttttttttttttk

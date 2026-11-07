@@ -1,0 +1,7 @@
+# put out by water
+wave noise
+freq 3000 -> 600
+attack 0.01
+sustain 0.15
+decay 0.5
+volume 0.4

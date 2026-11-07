@@ -1,0 +1,204 @@
+{
+  "props": {
+    "music": "froid",
+    "ambient": "#4a5878",
+    "sky_top": "#060a18",
+    "sky_bottom": "#1c2a44",
+    "parallax": [
+      {
+        "sprite": "gl_clouds",
+        "speed": 0.06,
+        "anchor": "top",
+        "drift": 3
+      },
+      {
+        "sprite": "gl_far",
+        "speed": 0.1,
+        "offset": 20,
+        "gap": 200
+      },
+      {
+        "sprite": "gl_mid",
+        "speed": 0.3,
+        "offset": 0,
+        "gap": 40
+      },
+      {
+        "sprite": "gl_near",
+        "speed": 0.55,
+        "offset": -16,
+        "gap": 140
+      }
+    ],
+    "title": "le cœur du Froid"
+  },
+  "tiles": [
+    "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN",
+    "NN!.....!.!..!...!............!....!!.!...NN",
+    "NN........................................NN",
+    "NN........................................NN",
+    "NN....*.................................*.NN",
+    "NNNNNNNNN..........................NNNNNNNNN",
+    "NN..!...............................!!!...NN",
+    "NN.............IIIIII.....................NN",
+    "NN...............!!.!.....................NN",
+    "NN........................................NN",
+    "NN............*...........................NN",
+    "NNNNNNNNNNNNNNIIIIIIIIIIIIIIIINNNNNNNNNNNNNN",
+    "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN"
+  ],
+  "back": [
+    "..NNNNNNNNNNNNNNNNNNNNNNNNN...NNNNNNNNNNNN..",
+    "..NNNNNNNNNNNNNNNNNNNNNNNNN...NNNNNNNNNNNN..",
+    "..N......................................N..",
+    "............................................",
+    "............................................",
+    "..NNNNNNNN........................NNNNNNNN..",
+    "..NNNNNNN..........................NNNNNNN..",
+    "..N...........NNNNNNNN...................N..",
+    "..N............NNNNN.....................N..",
+    "............................................",
+    "............................................",
+    "............................................",
+    "NNNNNNNNN.NNNNNNNNNNN.NNNNNN..NNNNNNNNNNNNNN"
+  ],
+  "entities": [
+    {
+      "prefab": "start",
+      "pos": [
+        72,
+        176
+      ]
+    },
+    {
+      "prefab": "torche",
+      "pos": [
+        56,
+        176
+      ]
+    },
+    {
+      "prefab": "braise",
+      "pos": [
+        120,
+        176
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "dialogue": "froid_debut",
+            "hint": "rallume les quatre braseros !"
+          }
+        }
+      }
+    },
+    {
+      "prefab": "brazier",
+      "pos": [
+        600,
+        176
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "link": "feu1"
+          }
+        }
+      }
+    },
+    {
+      "prefab": "courant",
+      "pos": [
+        536,
+        176
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "w": 32,
+            "h": 144
+          }
+        }
+      }
+    },
+    {
+      "prefab": "brazier",
+      "pos": [
+        632,
+        80
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "link": "feu2"
+          }
+        }
+      }
+    },
+    {
+      "prefab": "moulin",
+      "pos": [
+        200,
+        176
+      ]
+    },
+    {
+      "prefab": "courant",
+      "pos": [
+        168,
+        176
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "w": 32,
+            "h": 144,
+            "link": "moulin"
+          }
+        }
+      }
+    },
+    {
+      "prefab": "brazier",
+      "pos": [
+        88,
+        80
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "link": "feu3"
+          }
+        }
+      }
+    },
+    {
+      "prefab": "brazier",
+      "pos": [
+        280,
+        112
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "link": "feu4"
+          }
+        }
+      }
+    },
+    {
+      "prefab": "froid",
+      "pos": [
+        392,
+        56
+      ]
+    },
+    {
+      "prefab": "flocons",
+      "pos": [
+        360,
+        104
+      ]
+    }
+  ]
+}

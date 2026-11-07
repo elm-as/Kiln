@@ -1,0 +1,8 @@
+# a burst of light: bright, rising, with a shimmer
+wave triangle
+freq 600 -> 2400
+attack 0.005
+sustain 0.1
+decay 0.6
+volume 0.4
+arp 1.5 0.04

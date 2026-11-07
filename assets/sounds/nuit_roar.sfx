@@ -1,0 +1,8 @@
+# low and wide
+wave square
+freq 110 -> 55
+duty 0.45
+attack 0.02
+sustain 0.25
+decay 0.5
+volume 0.35

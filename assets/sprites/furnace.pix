@@ -1,0 +1,86 @@
+// furnace, a fire arrow lights it
+// made by tools/bggen.py, change it there
+size 24 24
+origin 12 24
+
+frame cold
+.........kssssk.........
+.........kssssk.........
+.........kssssk.........
+.........kssssk.........
+kkkkkkkkkkkkkkkkkkkkkkkk
+krrrRRRRrrrrRRRRrrrrRRRk
+kRRRrrrrRRRRrrrrRRRRrrrk
+kRRRrrrrRRRRrrrrRRRRrrrk
+kRRRrrrrRRRRrrrrRRRRrrrk
+krrrRRRRrrrrRRRRrrrrRRRk
+krrrRRRRrrrrRRRRrrrrRRRk
+krrrRRRRrrrrRRRRrrrrRRRk
+kRRRrrddddddddddddRRrrrk
+kRRRrrddddddddddddRRrrrk
+kRRRrrddddddddddddRRrrrk
+krrrRRddddddddddddrrRRRk
+krrrRRddddddddddddrrRRRk
+krrrRRddddddddddddrrRRRk
+kRRRrrddddddddddddRRrrrk
+kRRRrrddddddddddddRRrrrk
+kRRRrrddddddddddddRRrrrk
+krrrRRRRrrrrRRRRrrrrRRRk
+krrrRRRRrrrrRRRRrrrrRRRk
+kkkkkkkkkkkkkkkkkkkkkkkk
+
+frame lit0
+.........kssssk.........
+.........kssssk.........
+.........kssssk.........
+.........kssssk.........
+kkkkkkkkkkkkkkkkkkkkkkkk
+krrrRRRRrrrrRRRRrrrrRRRk
+kRRRrrrrRRRRrrrrRRRRrrrk
+kRRRrrrrRRRRrrrrRRRRrrrk
+kRRRrrrrRRRRrrrrRRRRrrrk
+krrrRRRRrrrrRRRRrrrrRRRk
+krrrRRRRrrrrRRRRrrrrRRRk
+krrrRRRRrrrrRRRRrrrrRRRk
+kRRRrrYyoOyoOYyoOYRRrrrk
+kRRRrroOYyoOyoOYyoRRrrrk
+kRRRrrYyoOYyoOyoOYRRrrrk
+krrrRRoOYyoOYyoOyorrRRRk
+krrrRROyoOYyoOYyoOrrRRRk
+krrrRRyoOyoOYyoOYyrrRRRk
+kRRRrrOYyoOyoOYyoORRrrrk
+kRRRrryoOYyoOyoOYyRRrrrk
+kRRRrrOYyoOYyoOyoORRrrrk
+krrrRRRRrrrrRRRRrrrrRRRk
+krrrRRRRrrrrRRRRrrrrRRRk
+kkkkkkkkkkkkkkkkkkkkkkkk
+
+frame lit1
+.........kssssk.........
+.........kssssk.........
+.........kssssk.........
+.........kssssk.........
+kkkkkkkkkkkkkkkkkkkkkkkk
+krrrRRRRrrrrRRRRrrrrRRRk
+kRRRrrrrRRRRrrrrRRRRrrrk
+kRRRrrrrRRRRrrrrRRRRrrrk
+kRRRrrrrRRRRrrrrRRRRrrrk
+krrrRRRRrrrrRRRRrrrrRRRk
+krrrRRRRrrrrRRRRrrrrRRRk
+krrrRRRRrrrrRRRRrrrrRRRk
+kRRRrrOYyoOYyoOyoORRrrrk
+kRRRrryoOYyoOYyoOyRRrrrk
+kRRRrroOyoOYyoOYyoRRrrrk
+krrrRRYyoOyoOYyoOYrrRRRk
+krrrRRoOYyoOyoOYyorrRRRk
+krrrRRYyoOYyoOyoOYrrRRRk
+kRRRrroOYyoOYyoOyoRRrrrk
+kRRRrrOyoOYyoOYyoORRrrrk
+kRRRrryoOyoOYyoOYyRRrrrk
+krrrRRRRrrrrRRRRrrrrRRRk
+krrrRRRRrrrrRRRRrrrrRRRk
+kkkkkkkkkkkkkkkkkkkkkkkk
+
+anim cold 1 once cold
+
+anim lit 8 loop lit0 lit1

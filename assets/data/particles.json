@@ -1,0 +1,150 @@
+{
+  "dust": {
+    "count": 4, "life": [0.25, 0.5], "speed": [8, 30], "angle": -90, "spread": 160,
+    "gravity": -10, "drag": 3, "size": [3, 0], "color": ["#9a90b0", "#9a90b000"], "area": [3, 0]
+  },
+  "wall_dust": {
+    "count": 1, "life": [0.2, 0.35], "speed": [5, 15], "angle": -90, "spread": 60,
+    "size": [2, 0], "color": ["#8a7fa0", "#8a7fa000"]
+  },
+  "death": {
+    "count": 26, "life": [0.35, 0.8], "speed": [40, 140], "angle": -90, "spread": 360,
+    "gravity": 220, "drag": 1.5, "size": [3, 1], "color": ["#ffd166", "#e8742a00"], "additive": true
+  },
+  "embers_die": {
+    "count": 10, "life": [0.6, 1.2], "speed": [10, 40], "angle": -90, "spread": 120,
+    "gravity": -40, "drag": 1, "size": [2, 1], "color": ["#ff9a3c", "#b8323a00"], "additive": true
+  },
+  "respawn": {
+    "count": 18, "life": [0.3, 0.6], "speed": [20, 60], "angle": -90, "spread": 360,
+    "gravity": -60, "drag": 3, "size": [2, 0], "color": ["#fff4c2", "#ffd16600"], "additive": true
+  },
+  "sparkle": {
+    "count": 12, "life": [0.3, 0.6], "speed": [30, 80], "angle": -90, "spread": 360,
+    "gravity": 60, "drag": 4, "size": [2, 1], "color": ["#fff4c2", "#ffd16600"], "additive": true
+  },
+  "goo": {
+    "count": 10, "life": [0.3, 0.6], "speed": [30, 90], "angle": -90, "spread": 140,
+    "gravity": 400, "size": [2, 2], "color": ["#6bb04c", "#3f7a3a00"]
+  },
+  "flame": {
+    "rate": 14, "life": [0.3, 0.6], "speed": [10, 30], "angle": -90, "spread": 40,
+    "gravity": -30, "size": [3, 0], "color": ["#ffd166", "#e8742a00"], "additive": true, "area": [4, 1]
+  },
+  "flame_big": {
+    "rate": 30, "life": [0.4, 0.9], "speed": [15, 40], "angle": -90, "spread": 40,
+    "gravity": -40, "size": [4, 0], "color": ["#ffd166", "#e8742a00"], "additive": true, "area": [8, 2]
+  },
+  "flame_burst": {
+    "count": 24, "life": [0.3, 0.7], "speed": [30, 90], "angle": -90, "spread": 100,
+    "gravity": -20, "drag": 2, "size": [3, 0], "color": ["#fff4c2", "#ff9a3c00"], "additive": true
+  },
+  "torch": {
+    "rate": 6, "life": [0.2, 0.45], "speed": [6, 18], "angle": -90, "spread": 30,
+    "gravity": -20, "size": [2, 0], "color": ["#ffd166", "#e8742a00"], "additive": true, "area": [1, 0]
+  },
+  "rubble": {
+    "count": 8, "life": [0.4, 0.8], "speed": [10, 50], "angle": 90, "spread": 120,
+    "gravity": 500, "size": [2, 2], "color": ["#62567a", "#46385c00"], "area": [7, 1]
+  },
+  "motes": {
+    "rate": 3, "life": [3, 6], "speed": [2, 8], "angle": -90, "spread": 120,
+    "size": [1, 1], "color": ["#fff4c260", "#fff4c200"], "additive": true, "area": [160, 90]
+  },
+  "boing": {
+    "count": 6, "life": [0.2, 0.4], "speed": [30, 70], "angle": -90, "spread": 100,
+    "size": [2, 0], "color": ["#ffffff", "#b3a9c600"]
+  },
+  "leaves": {
+    "rate": 4, "life": [4, 7], "speed": [8, 20], "angle": 110, "spread": 50,
+    "gravity": 4, "size": [2, 2], "color": ["#6bb04c", "#3f7a3a00"], "area": [170, 100]
+  },
+  "cinders": {
+    "rate": 10, "life": [2, 4], "speed": [8, 25], "angle": -90, "spread": 70,
+    "gravity": -6, "size": [1, 1], "color": ["#ffb040", "#ff402000"], "additive": true, "area": [170, 100]
+  },
+  "spray": {
+    "rate": 5, "life": [2, 4], "speed": [4, 12], "angle": 170, "spread": 40,
+    "size": [1, 1], "color": ["#b8f4ff80", "#b8f4ff00"], "additive": true, "area": [170, 100]
+  },
+  "steam": {
+    "count": 18, "life": [0.5, 1.1], "speed": [10, 40], "angle": -90, "spread": 90,
+    "gravity": -40, "drag": 2, "size": [4, 1], "color": ["#e8f0ff", "#8090a000"]
+  },
+  "lava_splash": {
+    "count": 12, "life": [0.3, 0.6], "speed": [40, 110], "angle": -90, "spread": 80,
+    "gravity": 400, "size": [2, 1], "color": ["#ffd166", "#e8742a00"], "additive": true
+  },
+  "splash": {
+    "count": 6, "life": [0.2, 0.45], "speed": [30, 70], "angle": -90, "spread": 100,
+    "gravity": 400, "size": [2, 1], "color": ["#b8f4ff", "#5fd4e800"]
+  },
+  "portal": {
+    "rate": 16, "life": [0.5, 1], "speed": [6, 20], "angle": -90, "spread": 360,
+    "gravity": -10, "drag": 1, "size": [2, 0], "color": ["#d0a0ff", "#6040c000"], "additive": true, "area": [7, 11]
+  },
+  "save": {
+    "count": 30, "life": [0.5, 1], "speed": [30, 90], "angle": -90, "spread": 360,
+    "gravity": -30, "drag": 2, "size": [2, 0], "color": ["#fff4c2", "#ffd16600"], "additive": true
+  },
+  "pop": {
+    "count": 14, "life": [0.15, 0.4], "speed": [40, 110], "angle": 0, "spread": 360,
+    "drag": 4, "gravity": 200, "size": [2, 1], "color": ["#ff6b6b", "#b8323a00"]
+  },
+  "frost": {
+    "count": 8, "life": [0.3, 0.7], "speed": [15, 50], "angle": -90, "spread": 360,
+    "gravity": -20, "drag": 3, "size": [2, 0], "color": ["#e8f6ff", "#80c0ff00"], "additive": true
+  },
+  "drip": {
+    "count": 1, "life": [0.3, 0.5], "speed": [0, 5], "angle": 90, "spread": 20,
+    "gravity": 300, "size": [1, 1], "color": ["#b8f4ff", "#5fd4e800"]
+  },
+  "ice_shatter": {
+    "count": 12, "life": [0.3, 0.6], "speed": [40, 110], "angle": -90, "spread": 160,
+    "gravity": 500, "size": [2, 1], "color": ["#e8f6ff", "#80c0ff00"]
+  },
+  "snow": {
+    "rate": 9, "life": [3, 5], "speed": [6, 16], "angle": 100, "spread": 30,
+    "size": [1, 1], "color": ["#ffffffc0", "#ffffff00"], "area": [180, 110]
+  },
+  "wind_up": {
+    "count": 1, "life": [0.4, 0.8], "speed": [60, 110], "angle": -90, "spread": 6,
+    "size": [1, 1], "color": ["#ffffffa0", "#ffffff00"], "additive": true
+  },
+  "wind_right": {
+    "count": 1, "life": [0.4, 0.8], "speed": [60, 110], "angle": 0, "spread": 6,
+    "size": [1, 1], "color": ["#ffffffa0", "#ffffff00"], "additive": true
+  },
+  "wind_left": {
+    "count": 1, "life": [0.4, 0.8], "speed": [60, 110], "angle": 180, "spread": 6,
+    "size": [1, 1], "color": ["#ffffffa0", "#ffffff00"], "additive": true
+  },
+  "rain": {
+    "rate": 45, "life": [0.5, 0.9], "speed": [170, 220], "angle": 95, "spread": 4,
+    "size": [1, 1], "color": ["#9ac8ff", "#5f8ad400"], "area": [38, 2]
+  },
+  "feathers": {
+    "count": 8, "life": [0.5, 1], "speed": [20, 60], "angle": -90, "spread": 300,
+    "gravity": 60, "drag": 3, "size": [2, 1], "color": ["#ffffff", "#d8d0e800"]
+  },
+  "breeze": {
+    "rate": 4, "life": [2, 4], "speed": [20, 40], "angle": 175, "spread": 10,
+    "size": [1, 1], "color": ["#fff4e0a0", "#fff4e000"], "additive": true, "area": [170, 100]
+  },
+  "shadow_mist": {
+    "count": 6, "life": [0.3, 0.8], "speed": [10, 40], "angle": -90, "spread": 360,
+    "gravity": -20, "drag": 2, "size": [3, 1], "color": ["#1a1428", "#6a4aa000"]
+  },
+  "eclat": {
+    "count": 40, "life": [0.3, 0.8], "speed": [80, 220], "angle": 0, "spread": 360,
+    "drag": 4, "size": [2, 0], "color": ["#ffffff", "#ffd16600"], "additive": true
+  },
+  "shadow_amb": {
+    "rate": 5, "life": [3, 5], "speed": [4, 10], "angle": -90, "spread": 60,
+    "size": [2, 1], "color": ["#6a4aa060", "#6a4aa000"], "additive": true, "area": [180, 110]
+  },
+  "spark": {
+    "count": 10, "life": [0.12, 0.3], "speed": [60, 160], "angle": 0, "spread": 360,
+    "drag": 6, "size": [2, 0], "color": ["#ffffff", "#ffd16600"], "additive": true
+  }
+}

@@ -1,0 +1,34 @@
+# the sea. calm and soft: slow sine arpeggios that wash in and out, a warm
+# pad under them, no drums at all. D major, drifting to B minor and back.
+tempo 66
+rows 4
+
+inst wave  sine     vol 0.16 attack 0.02 decay 1.2 sustain 0.0
+inst bell  triangle vol 0.10 attack 0.005 decay 1.6 sustain 0.0
+inst pad   sine     vol 0.12 attack 0.8 decay 0.8 sustain 0.8 release 1.2 vibrato 0.004
+inst bass  sine     vol 0.22 attack 0.1 decay 1.0 sustain 0.6 release 0.8
+
+pattern d
+wave  D4 .  A4 .  | F#5 . A4 .  | D4 .  A4 .  | E5 .  A4 .
+pad   F#4 . .  .  | .  .  .  .  | .  .  .  .  | .  .  .  .
+bass  D2 .  .  .  | .  .  .  .  | .  .  .  .  | A1 .  .  .
+
+pattern bm
+wave  B3 .  F#4 . | D5 .  F#4 . | B3 .  F#4 . | C#5 . F#4 .
+bell  .  .  .  .  | .  .  .  .  | F#5 . .  .  | .  .  .  .
+pad   D4 .  .  .  | .  .  .  .  | .  .  .  .  | .  .  .  .
+bass  B1 .  .  .  | .  .  .  .  | .  .  .  .  | F#1 . .  .
+
+pattern g
+wave  G3 .  D4 .  | B4 .  D4 .  | G3 .  D4 .  | A4 .  D4 .
+bell  .  .  .  .  | D5 .  .  .  | .  .  .  .  | .  .  .  .
+pad   B3 .  .  .  | .  .  .  .  | .  .  .  .  | .  .  .  .
+bass  G1 .  .  .  | .  .  .  .  | .  .  .  .  | D2 .  .  .
+
+pattern a
+wave  A3 .  E4 .  | C#5 . E4 .  | A3 .  E4 .  | E5 .  C#5 .
+bell  .  .  .  .  | .  .  .  .  | A5 .  .  .  | .  .  .  .
+pad   C#4 . .  .  | .  .  .  .  | .  .  .  .  | .  .  .  -
+bass  A1 .  .  .  | .  .  .  .  | .  .  .  .  | E2 .  .  .
+
+order d bm g a d bm g d

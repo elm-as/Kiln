@@ -1,0 +1,7 @@
+# very short, it plays a lot
+wave noise
+freq 2400 -> 1200
+attack 0.001
+sustain 0
+decay 0.035
+volume 0.3

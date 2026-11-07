@@ -1,0 +1,27 @@
+// falls when she walks under
+// made by tools/bggen.py, change it there
+size 8 16
+origin 4 5
+palette
+i #6ea8dc
+I #a8d4f4
+j #3e72ae
+J #e8f6ff
+
+frame 0
+JJiiiiij
+.Jiiiij.
+.Jiiiij.
+.Jiiiij.
+.Jiiiij.
+..Jiij..
+..Jiij..
+..Jiij..
+..Jiij..
+..JJij..
+...Jj...
+...Jj...
+...Jj...
+...JJ...
+...JJ...
+...JJ...

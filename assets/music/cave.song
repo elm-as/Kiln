@@ -1,0 +1,45 @@
+# levels 1 and 2. D minor, a busy little arpeggio under a slow tune
+tempo 96
+rows 4
+
+inst arp   square   vol 0.07 duty 0.25 attack 0.002 decay 0.16 sustain 0.0
+inst lead  triangle vol 0.20 attack 0.02 decay 0.4 sustain 0.45 release 0.15 vibrato 0.012
+inst bass  triangle vol 0.30 attack 0.005 decay 0.3 sustain 0.6 release 0.05
+inst kit   drum     vol 0.22
+
+pattern intro
+arp   D4 F4 A4 F4 | D4 F4 A4 F4 | D4 F4 A4 D5 | A4 F4 D4 F4
+bass  D2 .  .  .  | .  .  .  .  | D2 .  .  .  | .  .  C2 .
+kit   k  .  .  .  | .  .  h  .  | k  .  .  .  | .  .  h  .
+
+pattern dm
+arp   D4 F4 A4 F4 | D4 F4 A4 F4 | D4 F4 A4 D5 | A4 F4 D4 F4
+lead  .  .  .  .  | A4 .  .  G4 | F4 .  E4 .  | D4 .  .  -
+bass  D2 .  .  .  | D2 .  .  .  | D2 .  .  .  | D2 .  C2 .
+kit   k  .  h  .  | s  .  h  .  | k  .  h  k  | s  .  h  h
+
+pattern bb
+arp   Bb3 D4 F4 D4 | Bb3 D4 F4 D4 | Bb3 D4 F4 Bb4 | F4 D4 Bb3 D4
+lead  .  .  .  .  | F4 .  .  E4 | D4 .  C4 .  | Bb3 . .  -
+bass  Bb1 . .  .  | Bb1 . .  .  | Bb1 . .  .  | Bb1 . C2 .
+kit   k  .  h  .  | s  .  h  .  | k  .  h  k  | s  .  h  h
+
+pattern c
+arp   C4 E4 G4 E4 | C4 E4 G4 E4 | C4 E4 G4 C5 | G4 E4 C4 E4
+lead  .  .  .  .  | G4 .  .  A4 | Bb4 . A4 .  | G4 .  E4 .
+bass  C2 .  .  .  | C2 .  .  .  | C2 .  .  .  | C2 .  E2 .
+kit   k  .  h  .  | s  .  h  .  | k  .  h  k  | s  .  h  h
+
+pattern a
+arp   A3 C#4 E4 C#4 | A3 C#4 E4 C#4 | A3 C#4 E4 A4 | E4 C#4 A3 C#4
+lead  A4 .  .  .  | .  .  .  .  | C#5 . .  .  | E5 .  .  -
+bass  A1 .  .  .  | A1 .  .  .  | A1 .  .  .  | A1 .  C#2 .
+kit   k  .  h  .  | s  .  h  .  | k  .  h  k  | s  s  s  s
+
+pattern dm2
+arp   D4 F4 A4 F4 | D4 F4 A4 F4 | D4 F4 A4 D5 | A4 F4 D4 F4
+lead  D5 .  .  C5 | A4 .  .  .  | F4 .  G4 .  | A4 .  .  -
+bass  D2 .  .  .  | D2 .  .  .  | D2 .  .  .  | D2 .  C2 .
+kit   k  .  h  .  | s  .  h  .  | k  .  h  k  | s  .  h  o
+
+order intro dm bb c a dm2 bb c a

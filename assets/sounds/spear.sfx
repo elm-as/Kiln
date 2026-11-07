@@ -1,0 +1,7 @@
+# a quick whoosh
+wave noise
+freq 4000 -> 900
+attack 0.01
+sustain 0.02
+decay 0.07
+volume 0.3

@@ -1,0 +1,8 @@
+# one syllable of dialogue, the game changes the pitch per character
+wave square
+freq 330
+duty 0.4
+attack 0.003
+sustain 0.015
+decay 0.03
+volume 0.25

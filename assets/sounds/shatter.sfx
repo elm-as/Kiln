@@ -1,0 +1,8 @@
+# glass on stone
+wave triangle
+freq 2200 -> 1400
+attack 0.001
+sustain 0.01
+decay 0.18
+volume 0.25
+arp 1.5 0.03

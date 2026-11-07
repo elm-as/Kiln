@@ -1,0 +1,30 @@
+// the Froid throws these
+// made by tools/bggen.py, change it there
+size 8 8
+origin 4 4
+palette
+i #6ea8dc
+I #c8e8ff
+J #ffffff
+
+frame 0
+..i.i...
+.iiIIi..
+iiIIIIi.
+.IIJJIIi
+iIIJJII.
+.iIIIIii
+..iIIii.
+...i.i..
+
+frame 1
+...i.i..
+..iIIii.
+.iIIIIii
+iIIJJII.
+.IIJJIIi
+iiIIIIi.
+.iiIIi..
+..i.i...
+
+anim spin 10 loop 0-1

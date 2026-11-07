@@ -1,0 +1,29 @@
+# the Froid. Tense and driving: a pulsing low E, a cold bell answering,
+# the harmony creeping down a half step at a time.
+tempo 128
+rows 4
+
+inst pulse square   vol 0.10 duty 0.25 attack 0.002 decay 0.15 sustain 0.0
+inst bell  triangle vol 0.11 attack 0.003 decay 0.9 sustain 0.0
+inst pad   sine     vol 0.10 attack 0.4 decay 0.8 sustain 0.8 release 0.8 vibrato 0.005
+inst bass  sine     vol 0.24 attack 0.01 decay 0.3 sustain 0.3 release 0.2
+
+pattern a
+pulse E3 E3 .  E3 | E3 .  E3 E3 | E3 E3 .  E3 | E3 .  G3 F#3
+bell  B5 .  .  .  | .  .  .  .  | G5 .  .  .  | .  .  F#5 .
+pad   E4 .  .  .  | .  .  .  .  | .  .  .  .  | .  .  .  .
+bass  E2 .  E2 .  | E2 .  E2 .  | E2 .  E2 .  | E2 .  E2 .
+
+pattern b
+pulse C3 C3 .  C3 | C3 .  C3 C3 | B2 B2 .  B2 | B2 .  D#3 F#3
+bell  G5 .  .  .  | E5 .  .  .  | F#5 . .  .  | D#5 . .  .
+pad   G4 .  .  .  | .  .  .  .  | F#4 . .  .  | .  .  .  .
+bass  C2 .  C2 .  | C2 .  C2 .  | B1 .  B1 .  | B1 .  B1 .
+
+pattern c
+pulse A2 A2 .  A2 | A2 .  C3 E3 | A#2 A#2 . A#2 | A#2 . D3 F3
+bell  E6 .  .  C6 | .  .  A5 .  | F6 .  .  D6 | .  .  A#5 .
+pad   C4 .  .  .  | .  .  .  .  | D4 .  .  .  | .  .  .  .
+bass  A1 .  A1 .  | A1 .  A1 .  | A#1 . A#1 . | A#1 . A#1 .
+
+order a a b a c b a b

@@ -1,0 +1,27 @@
+// foreground rocks
+// made by tools/bggen.py, change it there
+size 96 20
+palette
+a #07050b
+
+frame 0
+................................................................................................
+................................................................................................
+................................................................................................
+..............................................aaa...............................................
+.............................................aaaaa..............................................
+...........................................aaaaaaaaa..........................................aa
+.........................................aaaaaaaaaaaa.......................................aaaa
+aa......................................aaaaaaaaaaaaaaa...................................aaaaaa
+aaa....................................aaaaaaaaaaaaaaaaa................................aaaaaaaa
+aaaaa................................aaaaaaaaaaaaaaaaaaaa.............................aaaaaaaaaa
+aaaaaaa.............................aaaaaaaaaaaaaaaaaaaaaaa..........................aaaaaaaaaaa
+aaaaaaaaa..........................aaaaaaaaaaaaaaaaaaaaaaaaa.......................aaaaaaaaaaaaa
+aaaaaaaaaa........................aaaaaaaaaaaaaaaaaaaaaaaaaaa.....................aaaaaaaaaaaaaa
+aaaaaaaaaaaa.....................aaaaaaaaaaaaaaaaaaaaaaaaaaaaa..................aaaaaaaaaaaaaaaa
+aaaaaaaaaaaaa...................aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa................aaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaa..................aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...............aaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaa................aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.............aaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaa..............aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...........aaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaa..............aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...........aaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaa..............aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..........aaaaaaaaaaaaaaaaaaaaa

@@ -1,0 +1,33 @@
+# the Night. Big and dark, then the light fighting back: a driving low
+# pulse under a bright arpeggio that keeps climbing. B minor to D.
+tempo 132
+rows 4
+
+inst pulse square   vol 0.10 duty 0.4 attack 0.002 decay 0.12 sustain 0.1
+inst arp   triangle vol 0.10 attack 0.002 decay 0.2 sustain 0.2 release 0.1
+inst pad   sine     vol 0.10 attack 0.3 decay 0.6 sustain 0.8 release 0.6
+inst bass  sine     vol 0.26 attack 0.005 decay 0.2 sustain 0.4 release 0.2
+inst hit   noise    vol 0.10 attack 0.001 decay 0.1 sustain 0.0
+
+pattern bm
+pulse B2 B2 B2 B2 | B2 B2 D3 B2 | B2 B2 B2 B2 | A2 A2 F#2 A2
+arp   B4 D5 F#5 D5 | B4 D5 F#5 B5 | B4 D5 F#5 D5 | A4 C#5 E5 A5
+pad   D4 .  .  .  | .  .  .  .  | .  .  .  .  | C#4 . .  .
+bass  B1 .  B1 .  | B1 .  B1 .  | B1 .  B1 .  | A1 .  A1 .
+hit   C5 .  .  .  | C5 .  .  C5 | C5 .  .  .  | C5 .  C5 C5
+
+pattern g
+pulse G2 G2 G2 G2 | G2 G2 B2 G2 | E2 E2 E2 E2 | F#2 F#2 A#2 F#2
+arp   G4 B4 D5 B4 | G4 B4 D5 G5 | E4 G4 B4 E5 | F#4 A#4 C#5 F#5
+pad   B3 .  .  .  | .  .  .  .  | G3 .  .  .  | A#3 . .  .
+bass  G1 .  G1 .  | G1 .  G1 .  | E1 .  E1 .  | F#1 . F#1 .
+hit   C5 .  .  .  | C5 .  .  C5 | C5 .  .  .  | C5 C5 C5 C5
+
+pattern d
+pulse D3 D3 D3 D3 | D3 D3 F#3 D3 | A2 A2 A2 A2 | A2 A2 C#3 E3
+arp   D5 F#5 A5 F#5 | D5 F#5 A5 D6 | A4 C#5 E5 C#5 | A4 C#5 E5 A5
+pad   F#4 . .  .  | .  .  .  .  | E4 .  .  .  | .  .  .  .
+bass  D2 .  D2 .  | D2 .  D2 .  | A1 .  A1 .  | A1 .  A1 .
+hit   C5 .  .  .  | C5 .  .  C5 | C5 .  .  .  | C5 .  C5 C5
+
+order bm g bm g d g d bm

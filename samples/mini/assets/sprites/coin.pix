@@ -1,0 +1,39 @@
+// spins by getting thinner
+size 8 8
+origin 4 4
+palette
+y #ffd84a
+Y #fff3b0
+o #d08a1a
+
+frame 0
+..oooo..
+.oyyyyo.
+oyYyyyyo
+oyYyyyyo
+oyyyyyyo
+oyyyyyyo
+.oyyyyo.
+..oooo..
+
+frame 1
+...oo...
+..oyyo..
+..oYyo..
+..oYyo..
+..oyyo..
+..oyyo..
+..oyyo..
+...oo...
+
+frame 2
+...oo...
+...yo...
+...Yo...
+...Yo...
+...yo...
+...yo...
+...yo...
+...oo...
+
+anim spin 8 loop 0 1 2 1

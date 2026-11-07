@@ -1,0 +1,7 @@
+wave sine
+freq 180 -> 760
+attack 0.003
+sustain 0.05
+decay 0.25
+volume 0.45
+vibrato 14 0.05

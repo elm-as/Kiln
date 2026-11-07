@@ -1,0 +1,8 @@
+# game saved
+wave triangle
+freq 523
+attack 0.005
+sustain 0.1
+decay 0.5
+volume 0.35
+arp 1.5 0.1

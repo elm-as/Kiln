@@ -1,0 +1,7 @@
+# fish jumping out
+wave sine
+freq 600 -> 1200
+attack 0.003
+sustain 0.02
+decay 0.1
+volume 0.25

@@ -1,0 +1,34 @@
+# the forest. G major, light on its feet, a flute-ish tune over plucked arps
+tempo 108
+rows 4
+
+inst pluck triangle vol 0.14 attack 0.002 decay 0.22 sustain 0.0
+inst flute sine     vol 0.20 attack 0.03 decay 0.3 sustain 0.6 release 0.15 vibrato 0.01
+inst bass  triangle vol 0.28 attack 0.005 decay 0.3 sustain 0.5 release 0.05
+inst kit   drum     vol 0.16
+
+pattern g
+pluck G4 B4 D5 B4 | G4 B4 D5 B4 | G4 B4 D5 G5 | D5 B4 G4 B4
+flute .  .  .  .  | D5 .  E5 .  | D5 .  B4 .  | G4 .  .  -
+bass  G2 .  .  .  | D3 .  .  .  | G2 .  .  .  | D3 .  B2 .
+kit   k  .  h  .  | .  .  h  .  | k  .  h  .  | .  .  h  h
+
+pattern c
+pluck C4 E4 G4 E4 | C4 E4 G4 E4 | C4 E4 G4 C5 | G4 E4 C4 E4
+flute E5 .  .  .  | D5 .  C5 .  | E5 .  G5 .  | E5 .  .  -
+bass  C3 .  .  .  | G2 .  .  .  | C3 .  .  .  | G2 .  E2 .
+kit   k  .  h  .  | .  .  h  .  | k  .  h  .  | .  .  h  h
+
+pattern em
+pluck E4 G4 B4 G4 | E4 G4 B4 G4 | E4 G4 B4 E5 | B4 G4 E4 G4
+flute B4 .  .  .  | A4 .  G4 .  | A4 .  B4 .  | E4 .  .  -
+bass  E2 .  .  .  | B2 .  .  .  | E2 .  .  .  | B2 .  G2 .
+kit   k  .  h  .  | .  .  h  .  | k  .  h  k  | .  .  h  h
+
+pattern d
+pluck D4 F#4 A4 F#4 | D4 F#4 A4 F#4 | D4 F#4 A4 D5 | A4 F#4 D4 F#4
+flute A4 .  .  .  | B4 .  C5 .  | D5 .  .  .  | F#5 . .  -
+bass  D2 .  .  .  | A2 .  .  .  | D2 .  .  .  | A2 .  F#2 .
+kit   k  .  h  .  | .  .  h  .  | k  .  h  .  | s  .  s  s
+
+order g c g d g c em d

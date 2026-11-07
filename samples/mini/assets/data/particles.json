@@ -1,0 +1,10 @@
+{
+  "sparkle": {
+    "count": 10, "life": [0.2, 0.5], "speed": [30, 80], "angle": -90, "spread": 360,
+    "drag": 3, "size": [2, 0], "color": ["#fff3b0", "#ffd84a00"], "additive": true
+  },
+  "poof": {
+    "count": 8, "life": [0.2, 0.4], "speed": [20, 60], "angle": -90, "spread": 180,
+    "gravity": 200, "size": [2, 1], "color": ["#e87a6a", "#c84a4a00"]
+  }
+}

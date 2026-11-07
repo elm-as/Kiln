@@ -1,0 +1,26 @@
+// sky bird
+// made by tools/bggen.py, change it there
+size 12 8
+origin 6 4
+
+frame 0
+............
+..kk....kk..
+.kwwk..kwwk.
+..kwwkkwwk..
+....kOOk....
+...kwwwwyk..
+....kkkk....
+............
+
+frame 1
+............
+............
+............
+....kkkk....
+..kwwOOwwk..
+.kwwkwwwwyk.
+kwk..kkkk.kk
+.k........k.
+
+anim fly 8 loop 0-1

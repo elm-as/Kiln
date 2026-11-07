@@ -1,0 +1,7 @@
+# put out by the cold: a hiss going glassy
+wave noise
+freq 6000 -> 1500
+attack 0.01
+sustain 0.1
+decay 0.5
+volume 0.35

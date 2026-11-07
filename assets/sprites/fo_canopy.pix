@@ -1,0 +1,48 @@
+// leaves overhead
+// made by tools/bggen.py, change it there
+size 160 40
+palette
+a #0c1a10
+b #18301c
+
+frame 0
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aa.baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+a.....baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+a.....baaaaaaaaaaaaa...baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.baaaaaaaaaaaaaaaaaaaa...baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+a.....baaaaaaaaaa......baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa....baaaaaaaaaaaaaaaaaaaa...baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+a.....baaaaaaaaaa......baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa......baaaaaaaaaaaaaaaaaaaa...baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+a.....baaaaaaaaaa......baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.......baaaaaaaaaaaaaaaaaaa.....baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+a.....baaaaaaaaaa......baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.........baaaaaaaaaaaaaaaaaa.....baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+a.....baaaaaaaaaa......baaaaaaaaaaaaaaaaaa.baaaaaaaaaaaaaaaaaa...........baaaaaaaaaaaaaaaaaa.....baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+a......baaaaaaaa........baaaaaaaaaaaaaa....baaaaaaaaaaaaaaaaa............baaaaaaaaaaaaaaaaa.......baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.baaaaaaaaaaaaaaaaaaaaaaa
+.......baaaaaaaa........baaaaaaaaaa........baaaaaaaaaaaaaaa..............baaaaaaaaaaaaaaaaa.......baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.baaaaaaaaaaaaaaaaaaaaaaa
+.......baaaaaaaa........baaaaaaaaa.........baaaaaaaaaaaaaaa..............baaaaaaaaaaaaaaaaa.......baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..baaaaaaaaaaaaaaaaaaaaaaa
+.......baaaaaaaa........baaaaaaaaa.........baaaaaaaaaaaaaaa..............baaaaaaaaaaaaaaaa.........baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..baaaaaaaaaaaaa.baaaaaaaa
+.......baaaaaaaa.........baaaaaaaa..........baaaaaaaaaaaaaa..............baaaaaaaaaaaaaaaa.........baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..baaaaaaaaaaaaa.baaaaaaaa
+........baaaaaa..........baaaaaaaa..........baaaaaaaaaaaaaa..............baaaaaaaaaaaaaaa..........baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..baaaaaaaaaaaaa.baaaaaaaa
+........baaaaaa..........baaaaaaaa..........baaaaaaaaaaaaa................baaaaaaaaaaaaaa...........baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..baaaaaaaaaaaaa.baaaaaaaa
+........baaaaaa...........baaaaaa............baaaaaaaaaaaa................baaaaaaaaaaaaaa...........baaaaaaaaaaaaaaaaa.baaaaaaaaaaaaa....baaaaaaaaaaaa..baaaaaaa
+........baaaaaa...........baaaaaa............baaaaaaaaaaa.................baaaaaaaaaaaaa.............baaaaaaa.baaaaaa..baaaaaaaaaaaaa....baaaaaaaaaaaa..baaaaaaa
+.........baaaa............baaaaaa.............baaaaaaaaaa.................baaaaaaaaaaaaa.............baaaaaaa..baaaa...baaaaaaaaaaaaa....baaaaaaaaaaa...baaaaaaa
+.........baaaa.............baaaa..............baaa.baaaa..................baaaaaaaaaaaa..............baaaaaa....baa.....baaaaaaaaaaaa....baaaaaaaaaaa...baaaaaaa
+.........baaaa.............baaaa...............baa..baaa...................baaaaaaaaaaa...............baaaaa.....b......baaaaaaaaaaa......baaaaaaaaaa....baaaaaa
+..........baa..............baaa................ba...baa....................baaaaaaaaaa................baaaa.............baaaaaaaaaaa......baaaaaaaaaa....baaaaaa
+..........baa...............baa.................b....b.....................baaaaaaaaaa.................baaa..............baaaaaaaaaa......baaaaaaaaa.....baaaaaa
+..........baa...............ba.............................................baaaaaaaaa...................ba...............baaaaaaaaa........baaaaaaaa......baaaaa
+...........b................b...............................................baaaaaaaa...................b................baaaaaaaaa........baaaaaaaa......baaaaa
+...........b................................................................baaaaaaa......................................baaaaaaaa........baaaaaaaa.......baaaa
+............................................................................baaaaa.b......................................baaaaaaa..........baaaaaa........baaaa
+............................................................................baaaaa........................................baaaaaaa..........baaaaaa.........baaa
+.............................................................................baaa..........................................baaaaa...........baaaaaa.........baaa
+.............................................................................baaa..........................................baaaaa............baaaa...........baa
+.............................................................................baaa...........................................baaaa............baaaa...........baa
+.............................................................................baaa...........................................baaa.............baaa.............ba
+..............................................................................ba............................................baaa..............baa..............b
+..............................................................................ba.............................................ba...............ba...............b
+..............................................................................ba.............................................b.................b................
+................................................................................................................................................................
+................................................................................................................................................................
+................................................................................................................................................................

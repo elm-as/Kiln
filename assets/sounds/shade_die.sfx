@@ -1,0 +1,7 @@
+# a shadow tearing like cloth
+wave noise
+freq 400 -> 1800
+attack 0.01
+sustain 0.05
+decay 0.25
+volume 0.3

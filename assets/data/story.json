@@ -1,0 +1,235 @@
+{
+  // who can talk, and how they look and sound in the dialogue box
+  "characters": {
+    "braise": { "name": "Braise", "portrait": "braise", "color": "#e8742a", "voice": 0.75 },
+    "lueur": { "name": "Lueur", "portrait": "lueur", "color": "#ffd166", "voice": 1.6 }
+  },
+
+  // talk("id") from a script, or a level's "outro" prop
+  "dialogues": {
+    "creux_debut": [
+      { "who": "braise", "text": "Ferme la porte derrière toi ! Tu laisses entrer tout le vent de la galerie." },
+      { "who": "lueur", "text": "…" },
+      { "who": "braise", "text": "Viens plus près. Tu sors d’où, toi ? Y a pas eu une flammèche vivante dans ce trou depuis des lustres." },
+      { "who": "braise", "text": "C’est plein de bestioles aveugles qui nichent dans les briques. Ramasse cette tige en fer, là, par terre. Pique devant toi, ou vers le haut si ça te tombe du plafond.", "give": "lance" },
+      { "who": "braise", "text": "Va jusqu’à la grille au fond et fous-y le feu. Qu’on voie au moins à deux mètres." }
+    ],
+    "creux_fin": [
+      { "who": "braise", "text": "Bon. Le conduit n’est pas bouché ici, l’air commence à circuler." },
+      { "who": "braise", "text": "Suis la pente le long des vieilles racines. Je descends derrière toi." }
+    ],
+
+    "racines_debut": [
+      { "who": "braise", "text": "Fais gaffe aux parois, c’est gluant de condensation. Prends appui dessus d’un coup sec pour sauter, traîne pas." },
+      { "who": "braise", "text": "Tiens, prends ça. Un vieil arc de dératiseur trouvé sous une souche, avec sa réserve.", "give": "arc" },
+      { "who": "braise", "text": "Vise droit ou en cloche si la cible est plus haute. Dès que tu rallumes un brasero, ramasse les bouts de charbon qui traînent dedans pour refaire ton stock." }
+    ],
+    "racines_fin": [
+      { "who": "braise", "text": "Deux foyers qui tirent. C’est déjà ça de pris." },
+      { "who": "lueur", "text": "…" },
+      { "who": "braise", "text": "Par contre, le clapet du fond vibre. Y a de la pression qui pousse de l’autre côté." }
+    ],
+
+    "profondeurs_debut": [
+      { "who": "braise", "text": "Le fond de cuve. C’est humide, ça sent la vieille suie mouillée, j’ai horreur de cet étage." },
+      { "who": "lueur", "text": "!" },
+      { "who": "braise", "text": "Ouais, avance. Plus vite on sort d’ici, plus vite je sèche." }
+    ],
+    "profondeurs_fin": [
+      { "who": "braise", "text": "Regarde cette vanne circulaire qui tourne toute seule… Le contrepoids s’est débloqué." },
+      { "who": "lueur", "text": "…" },
+      { "who": "braise", "text": "De l’air frais passe à travers. De la sève et du bois vert. On remonte vers les racines de surface." }
+    ],
+
+    "foret_debut": [
+      { "who": "braise", "text": "Des arbres. Des vrais, pas du bois de charpente pourri." },
+      { "who": "braise", "text": "Reste sur les chemins de pierre, va pas mettre le feu aux broussailles." },
+      { "who": "braise", "text": "Les gros champignons rouges sont souples : saute dessus à pieds joints pour prendre de la hauteur. Et les rondins suspendus, tu peux passer au travers par en dessous." }
+    ],
+    "foret_fin": [
+      { "who": "braise", "text": "Une autre bouche d’aération entre les branches. Et ça sent le soufre à plein nez." },
+      { "who": "lueur", "text": "!" },
+      { "who": "braise", "text": "Reste pas le bec ouvert. Pour un bout de flamme comme toi, c’est le seul endroit potable du coin." }
+    ],
+
+    "volcan_debut": [
+      { "who": "braise", "text": "Ah. Enfin de l’air sec. Mes fissures arrêtent de tirer." },
+      { "who": "lueur", "text": "!" },
+      { "who": "braise", "text": "T’emballe pas. La lave te renvoie vers le haut, d’accord, mais regarde les voûtes : la roche condense. Une seule grosse goutte d’eau froide sur la tête et t’es bonne pour le tas de cendres." }
+    ],
+    "volcan_fin": [
+      { "who": "braise", "text": "La chambre de chauffe est repartie. Mais l’ouverture suivante sent le sel et la vase…" },
+      { "who": "lueur", "text": "…" },
+      { "who": "braise", "text": "Le bassin de trop-plein. De la flotte partout. Reste sur les planches, et surtout : n’y tombe pas." }
+    ],
+
+    "mer_debut": [
+      { "who": "braise", "text": "Une horreur. Rien que de regarder en bas, ça me donne des suées froides." },
+      { "who": "braise", "text": "T’as pas de prise, ton feu baisse et tes sauts sont courts. Avance de barge en barge, calmement." },
+      { "who": "braise", "text": "Si un ponton commence à piquer du nez sous tes pieds, saute sur le suivant sans hésiter." }
+    ],
+    "mer_fin": [
+      { "who": "braise", "text": "On sort enfin de la flotte… Mais le tuyau qui monte est pris dans une gangue blanche." },
+      { "who": "lueur", "text": "…" },
+      { "who": "braise", "text": "Le secteur des prises d’air froides. C’est là que le gel s’est installé en premier. Prépare-toi à courir." }
+    ],
+
+    "glace_debut": [
+      { "who": "braise", "text": "Ça caille sec. Reste pas immobile, ton foyer va rétrécir à vue d’œil." },
+      { "who": "braise", "text": "Fonce d’une torche à l’autre. Dès que tu t’éloignes d’une braise, t’as quelques secondes avant d’y passer." },
+      { "who": "braise", "text": "Si une plaque de glace te barre la route, fonce dedans : ta chaleur va la percer net." },
+      { "who": "lueur", "text": "!" }
+    ],
+    "glace_fin": [
+      { "who": "braise", "text": "On a traversé le glacier. Mais le cœur du bouchon n’est pas là." },
+      { "who": "lueur", "text": "…" },
+      { "who": "braise", "text": "L’aspiration monte tout droit le long de la paroi extérieure. Faut grimper sur la crête." }
+    ],
+
+    "ciel_debut": [
+      { "who": "braise", "text": "Regarde cette prise d’air… Le tirage est tellement violent qu’il te soulève." },
+      { "who": "braise", "text": "Écarte tes flammèches quand tu tombes : laisse le vent te porter, tu vas flotter au lieu de t’écraser.", "give": "planer" },
+      { "who": "braise", "text": "Les moulins sur les plateformes commandent les registres d’air. Tire une flèche dans les pales pour débloquer les rouages." },
+      { "who": "braise", "text": "Et planque-toi dès que le ciel noircit : une rincée là-haut, c’est la fin du voyage." }
+    ],
+    "ciel_fin": [
+      { "who": "braise", "text": "Tu sens ce courant glacé qui descend du sommet ? La buse principale est juste au-dessus." },
+      { "who": "lueur", "text": "!" },
+      { "who": "braise", "text": "C’est là que le bouchon s’est formé. On va lui régler son compte." }
+    ],
+
+    "froid_debut": [
+      { "who": "braise", "text": "Regarde la taille de ce bloc. Il obstrue toute la sortie de la cheminée." },
+      { "who": "lueur", "text": "…" },
+      { "who": "braise", "text": "Tes tirs normaux ne lui feront rien, c’est de la glace compactée depuis des années." },
+      { "who": "braise", "text": "Rallume les quatre foyers de dégel autour de la plateforme. La chaleur va ramollir sa base. Dès que la croûte casse, frappe dedans." }
+    ],
+    "froid_vaincu": [
+      { "who": "braise", "text": "Le bouchon a éclaté d’un coup ! Tout retombe en neige fondue." },
+      { "who": "braise", "text": "Tes pointes ont absorbé la braise des fourneaux. Elles crachent du feu, maintenant.", "give": "feu" },
+      { "who": "lueur", "text": "!" },
+      { "who": "braise", "text": "Par contre, la fumée ne sort toujours pas librement. Ça bloque encore plus bas, dans les ateliers mécaniques." }
+    ],
+
+    "forge_debut": [
+      { "who": "braise", "text": "Les laminoirs et les martinets. Tout le parc de machines est resté figé en pleine charge." },
+      { "who": "braise", "text": "Tape sur les leviers en fonte pour basculer les aiguillages. Tes flèches de feu allument les brûleurs à distance." },
+      { "who": "braise", "text": "Fais attention aux pilons automatiques et aux scies : si un volant d’inertie tourne, il s’arrêtera pas pour toi." }
+    ],
+    "atelier_fin": [
+      { "who": "braise", "text": "Le premier atelier s’est débloqué. Tu entends les transmissions qui grincent ?" },
+      { "who": "braise", "text": "La grande forge centrale est juste derrière. Si le foyer principal repart, toute la machinerie se remet en ligne." }
+    ],
+
+    "grande_forge_debut": [
+      { "who": "braise", "text": "Le cœur de l’atelier. Regarde dans le creuset de l’enclume : il reste un morceau de coke incandescent." },
+      { "who": "braise", "text": "Prends-le. Ça va te donner une vraie impulsion : une ruée nette vers l’avant.", "give": "elan" },
+      { "who": "lueur", "text": "!" },
+      { "who": "braise", "text": "Avec ça, tu traverses les cloisons vermoulues et tu passes les fosses sans attendre les navettes." }
+    ],
+    "forge_fin": [
+      { "who": "braise", "text": "La grande forge ronfle comme au premier jour. Les galeries commencent enfin à tiédir." },
+      { "who": "lueur", "text": "…" },
+      { "who": "braise", "text": "Mais sous le plancher de coulée… le puits de vidange est noir d’encre. Aucun tirage ne passe par là." },
+      { "who": "braise", "text": "C’est là-dessous que l’air est bloqué pour de bon." }
+    ],
+
+    "ombres_debut": [
+      { "who": "braise", "text": "On n’y voit pas à dix centimètres. La poussière de carbone étouffe tout." },
+      { "who": "lueur", "text": "…" },
+      { "who": "braise", "text": "Écoute. Toute la chauffe que t’as accumulée depuis le début, sors-la d’un coup sec. Fais péter une décharge de lumière.", "give": "eclat" },
+      { "who": "braise", "text": "Certaines passerelles ne tiennent que si tu les éclaires. Et les bêtes qui rampent dans la suie détestent les étincelles : un coup d’éclat et elles restent clouées sur place." }
+    ],
+    "crepuscule_fin": [
+      { "who": "braise", "text": "Les galeries se resserrent encore. On arrive au clapet de fond." },
+      { "who": "braise", "text": "C’est là que la crasse et le froid se sont amassés. Le dernier bouchon." }
+    ],
+
+    "abime_debut": [
+      { "who": "braise", "text": "La voilà. La masse qui colle au fond de la cuve." },
+      { "who": "braise", "text": "Dans le noir, tes coups glissent dessus sans entamer la crasse. Claque un éclat pour la forcer à se découvrir." },
+      { "who": "braise", "text": "Dès qu’elle recule, balance tout : flèches de feu, pique, ruée. Laisse rien passer." },
+      { "who": "lueur", "text": "!" },
+      { "who": "braise", "text": "Allez. J’ai pas traîné ma carcasse dans la suie jusqu’ici pour qu’on reste plantés devant la vanne. Ouvre-moi ce conduit." }
+    ],
+    "nuit_vaincue": [
+      { "who": "braise", "text": "Le clapet a sauté ! L’air chaud monte droit dans la colonne !" },
+      { "who": "lueur", "text": "!!!" }
+    ]
+  },
+
+  // full screen pages, for the start and the end
+  "cutscenes": {
+    "intro": [
+      { "image": "hearth", "anim": "lit", "scale": 3, "glow": "#ff9040",
+        "text": "Le conduit d’aération principal s’est bouché il y a longtemps. Quand la cheminée centrale a cessé de tirer, le gel est descendu dans les galeries, niveau par niveau." },
+      { "image": "hearth", "anim": "cold", "scale": 3,
+        "text": "Tout s’est arrêté : les souffleries, les vannes, les brûleurs. Le froid s’est tassé dans le fond des puits et plus rien n’a bougé." },
+      { "image": "player", "anim": "idle", "scale": 2, "glow": "#ff9a3c",
+        "text": "Puis une plaque de suie s’est détachée du conduit. En tombant sur la grille, elle a frotté contre un résidu de mâchefer encore sec." },
+      { "image": "player", "anim": "idle", "scale": 4, "glow": "#ffb070",
+        "text": "Une étincelle a pris dans la poussière. Pas bien grande, mais assez vive pour ne pas crever au premier courant d’air : Lueur." }
+    ],
+    "vers_foret": [
+      { "image": "portal", "anim": "spin", "scale": 3, "glow": "#a070ff",
+        "text": "Le clapet de décharge s’ouvre sur les galeries supérieures. Les racines des bois du dessus ont fini par traverser les voûtes de pierre." },
+      { "image": "fo_mid", "scale": 1, "glow": "#80c060",
+        "text": "Le gel a tout pris : les troncs sont durs comme du métal et la sève est figée dans le bois." }
+    ],
+    "vers_volcan": [
+      { "image": "portal", "anim": "spin", "scale": 3, "glow": "#a070ff",
+        "text": "Derrière la vanne de secours, la roche change : les conduites d’évacuation de la chambre thermique traversent la poche de lave." },
+      { "image": "vo_far", "scale": 1, "glow": "#ff6020",
+        "text": "Les parois suintent encore, mais l’air y est sec et chaud." }
+    ],
+    "vers_mer": [
+      { "image": "portal", "anim": "spin", "scale": 3, "glow": "#a070ff",
+        "text": "La conduite débouche sur le bassin de décantation inférieur. L’eau s’y est accumulée sur des kilomètres." },
+      { "image": "boat", "scale": 2, "glow": "#5f8ad4",
+        "text": "Les pontons flottants et les barges de maintenance pourrissent dans l’eau noire." }
+    ],
+    "vers_glace": [
+      { "image": "portal", "anim": "spin", "scale": 3, "glow": "#a070ff",
+        "text": "La galerie remonte vers les prises d’air extérieures, en plein col de montagne." },
+      { "image": "gl_far", "scale": 1, "glow": "#80c0ff",
+        "text": "Le vent y souffle en continu. Sans abri et sans braises, le froid aspire la chaleur en quelques secondes." }
+    ],
+    "vers_ciel": [
+      { "image": "portal", "anim": "spin", "scale": 3, "glow": "#a070ff",
+        "text": "La trappe de visite donne sur le vide. La falaise s’arrête net au-dessus de la brume." },
+      { "image": "sk_mid", "scale": 1, "glow": "#ffc080",
+        "text": "Les pylônes des vieux moulins de ventilation tiennent encore debout entre les blocs de roche suspendus." }
+    ],
+    "vers_froid": [
+      { "image": "froid", "anim": "idle", "scale": 2, "glow": "#80c0ff",
+        "text": "Au sommet de la cheminée d’évacuation extérieure s’est formé un bouchon de glace haut comme un silo." },
+      { "image": "player", "anim": "idle", "scale": 3, "glow": "#ff9a3c",
+        "text": "L’air humide a gelé couche après couche autour de la grille d’expulsion. Tant qu’il est là, rien ne tirera en bas." }
+    ],
+    "vers_forge": [
+      { "image": "portal", "anim": "spin", "scale": 3, "glow": "#a070ff",
+        "text": "Sous la cheminée s’étendent les ateliers de fonte et les laminoirs." },
+      { "image": "fr_far", "scale": 1, "glow": "#ff8a40",
+        "text": "Des kilomètres de tuyaux froids, de pilons arrêtés à mi-course et de courroies figées par le gel." }
+    ],
+    "vers_ombres": [
+      { "image": "portal", "anim": "spin", "scale": 3, "glow": "#6a4aa0",
+        "text": "La dernière trappe de purge plonge sous les fondations des ateliers." },
+      { "image": "om_far", "scale": 1, "glow": "#6a4aa0",
+        "text": "Les conduites ne sont plus éclairées depuis des décennies. La poussière de suie y est tellement dense qu’elle étouffe la moindre lueur." }
+    ],
+    "fin": [
+      { "image": "player", "anim": "idle", "scale": 3, "glow": "#ffffff",
+        "text": "La masse qui obstruait la sortie d’air s’est effondrée dans la trémie de vidange." },
+      { "image": "soleil", "scale": 2, "glow": "#ffd166",
+        "text": "La grande colonne de tirage a repris d’un coup. L’air chaud des profondeurs est monté dans les tuyaux avec un sifflement continu." },
+      { "image": "soleil", "scale": 3, "glow": "#fff4c2",
+        "text": "Les registres des ateliers ont grincé, les courroies ont commencé à tourner et la croûte de glace sur les hublots a fondu." },
+      { "image": "hearth", "anim": "lit", "scale": 4, "glow": "#ffb060",
+        "text": "Au fond de la fosse, bien calée sur la grille du foyer principal au milieu d’un tas de charbon neuf, Lueur crépite sans faiblir." },
+      { "image": "braise", "anim": "idle", "scale": 4, "glow": "#e8742a",
+        "text": "Sur la margelle en briques, un vieux morceau de charbon tiède s’est adossé contre la fonte encore chaude. Il ne tremble plus." },
+      { "text": "FIN" }
+    ]
+  }
+}

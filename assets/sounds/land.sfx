@@ -1,0 +1,6 @@
+wave noise
+freq 1400 -> 300
+attack 0.002
+sustain 0.01
+decay 0.08
+volume 0.4

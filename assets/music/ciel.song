@@ -1,0 +1,35 @@
+# the sky. Light and quick, a flute-ish lead over open fifths, like
+# being carried. G major, lifting to C and D.
+tempo 100
+rows 4
+
+inst lead  triangle vol 0.12 attack 0.01 decay 0.4 sustain 0.3 release 0.3 vibrato 0.006
+inst harp  sine     vol 0.10 attack 0.002 decay 0.6 sustain 0.0
+inst pad   sine     vol 0.09 attack 0.6 decay 0.8 sustain 0.7 release 1.0
+inst bass  sine     vol 0.18 attack 0.05 decay 0.6 sustain 0.4 release 0.4
+
+pattern g
+lead  G5 .  .  A5 | B5 .  D6 .  | B5 .  .  A5 | G5 .  .  .
+harp  G4 D5 G5 D5 | G4 D5 B5 D5 | G4 D5 G5 D5 | G4 D5 B5 D5
+pad   B4 .  .  .  | .  .  .  .  | .  .  .  .  | .  .  .  .
+bass  G2 .  .  .  | D2 .  .  .  | G2 .  .  .  | D2 .  .  .
+
+pattern c
+lead  E5 .  G5 .  | C6 .  .  B5 | A5 .  G5 .  | E5 .  .  .
+harp  C4 G4 C5 G4 | C4 G4 E5 G4 | C4 G4 C5 G4 | C4 G4 E5 G4
+pad   E4 .  .  .  | .  .  .  .  | .  .  .  .  | .  .  .  .
+bass  C2 .  .  .  | G1 .  .  .  | C2 .  .  .  | G1 .  .  .
+
+pattern d
+lead  F#5 . A5 .  | D6 .  .  C6 | B5 .  A5 .  | F#5 . .  .
+harp  D4 A4 D5 A4 | D4 A4 F#5 A4 | D4 A4 D5 A4 | D4 A4 F#5 A4
+pad   F#4 . .  .  | .  .  .  .  | .  .  .  .  | .  .  .  -
+bass  D2 .  .  .  | A1 .  .  .  | D2 .  .  .  | A1 .  .  .
+
+pattern em
+lead  B5 .  .  G5 | E5 .  .  G5 | A5 .  B5 .  | A5 .  .  .
+harp  E4 B4 E5 B4 | E4 B4 G5 B4 | E4 B4 E5 B4 | E4 B4 G5 B4
+pad   G4 .  .  .  | .  .  .  .  | .  .  .  .  | .  .  .  .
+bass  E2 .  .  .  | B1 .  .  .  | E2 .  .  .  | B1 .  .  .
+
+order g c g d em c d g

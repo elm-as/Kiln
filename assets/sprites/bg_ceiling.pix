@@ -1,0 +1,52 @@
+// far stalactites
+// made by tools/bggen.py, change it there
+size 192 44
+palette
+a #15111f
+b #1d182b
+
+frame 0
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.......baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.....baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..........baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.....baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.............baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa......baaaaaaaaaaa...baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaa..baaaaaaaaaaaaaaaaaa.....................baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.......baaaaaaaaaa......baaaaaaaaaaaaaaaaaaaaa..baaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaa...baaaaaaaaaaaaaaaaaa.....................baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa........baaaaaaaa...........baaaaa...baaaaaaa......baaaaaaaa
+aaaaaaaaaaaaaaaaa......baaaaaaaaaaaaaaaaa......................baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.....baaaaaaaaaaaaaaaaaaaaaaaaaaa........baaaaaaaa....................baaaaaaa........baaaaaa
+aaaaaaaaaaaaaaaa.......baaaaaaaaaaaaaaaaa......................baaaaaaaaaa...baaaaaaaaaaaaaaaaaa.........baaaaaaaaaaaaaaaaaaaaaaaaa..........baaaaaa.....................baaaaaaa.........baaaaa
+aaaaaaaaaaaaaa.........baaaaaaaaaaaaaaaa.......................baaaaaaaaa......baaaaaaaaaaaaa............baaaaaa....baaaaaaaaaaaaaa..........baaaaaa......................baaaaa...........baaaa
+aaaaaaaaaaaaa...........baaaaaaaaaaaaaaa........................baaaaaaa........baaaaaaaaaa..............baaaaaa.....baaaaaaaaaaaaa..........baaaaa.......................baaaaa...........baaaa
+aaaaaaaaaaa.............baaaaaaaaaaaaaaa........................baaaaaaa........baaaaaaaaa...............baaaaaa.....baaaaaaaaaaaaa...........baaaa........................baaaa............baaa
+aaaaaaaaaa..............baaaaaaaaaaaaaaa.........................baaaaa..........baaaaaaaa................baaaaa.....baaaaaaaaaaaa............baaa.........................baaa.............baaa
+aaaaaaaaaa..............baaaaaaaaaaaaaaa.........................baaaa...........baaaaaaaa................baaaa.......baaaaaaaaaaa.............baa.........................baaa.............baaa
+aaaaaaaaaa...............baaaaaaaaaaaaa..........................baaaa...........baaaaaaaa................baaaa.......baaaaaaaaaaa.............ba...........................baa.............baaa
+aaaaaaaaa................baaaaaaaaaaaaa...........................baa............baaaaaaa.................baaaa.......baaaaaaaaaaa.............ba...........................ba...............baa
+aaaaaaaaa................baaaaaaaaaaaaa...........................ba.............baaaaaaa.................baaaa........baaaaaaaaaa..........................................ba...............baa
+aaaaaaaaa................baaaaaaaaaaaaa...........................ba..............baaaaaa..................baa.........baaaaaaaaa...........................................ba...............baa
+aaaaaaaa..................baaaaaaaaaaaa...........................................baaaaaa..................baa.........baaaaaaaaa............................................b...............baa
+aaaaaaaa..................baaaaaaaaaaa............................................baaaaaa..................baa.........baaaaaaaaa.............................................................ba
+aaaaaaaa..................baaaaaaaaaaa............................................baaaaa...................baa..........baaaaaaaa.............................................................ba
+aaaaaaaa..................baaaaaaaaaaa............................................baaaaa...................baa..........baaaaaaa..............................................................ba
+aaaaaaa...................baaaaa.baaaa.............................................baaaa....................b...........baaaaaaa..............................................................ba
+aaaaaaa....................baaaa.baaaa.............................................baaaa....................b............baaaaaa..............................................................ba
+aaaaaaa....................baaaa.baaaa.............................................baaaa....................b............baaaaaa...............................................................b
+aaaaaaa....................baaaa.baaa..............................................baaa.....................b............baaaaaa...............................................................b
+aaaaaaa....................baaa..baaa..............................................baaa.....................b............baaaaa................................................................b
+aaaaaa......................baa..baaa..............................................baaa...................................baaaa................................................................b
+aaaaaa......................baa...baa...............................................baa...................................baaaa................................................................b
+baaaaa......................baa...baa...............................................baa...................................baaaa.................................................................
+baaaaa......................baa...ba................................................baa...................................baaa..................................................................
+baaaa.......................ba....ba................................................ba.....................................baa..................................................................
+baaaa........................b....ba................................................ba.....................................baa..................................................................
+baaaa........................b....ba.................................................b.....................................baa..................................................................
+.baaa........................b.....b.................................................b......................................ba..................................................................
+.baaa........................b.....b.................................................b......................................b...................................................................
+.baa.................................................................................b......................................b...................................................................
+.baa........................................................................................................................b...................................................................
+.baa............................................................................................................................................................................................
+..ba............................................................................................................................................................................................
