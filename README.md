@@ -108,7 +108,7 @@ et les cinématiques sont dans `assets/data/story.json`, les niveaux dans
 
 ## Contribuer
 
-- Respecter la charte `ELMAS.md` : **350 lignes maximum par fichier**, séparation stricte entre moteur (`src/`) et logique métier du jeu (`game/`), zéro dépendance externe.
+- Respecter la charte, séparation stricte entre moteur (`src/`) et logique métier du jeu (`game/`), zéro dépendance externe.
 - Vérifier systématiquement les tests et le packaging avant tout commit :
   ```
   build.bat tests
