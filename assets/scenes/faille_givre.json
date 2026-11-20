@@ -1,115 +1,232 @@
 {
   "props": {
-    "title": "caverne · la faille de givre",
+    "title": "grotte · la faille de givre",
     "music": "glace",
-    "ambient": "#304259",
-    "sky_top": "#0d141e",
-    "sky_bottom": "#18263a"
+    "ambient": "#48607e",
+    "sky_top": "#09101c",
+    "sky_bottom": "#1a2d48",
+    "back_tint": "#2f435e",
+    "parallax": [
+      {
+        "sprite": "gl_clouds",
+        "speed": 0.05,
+        "anchor": "top",
+        "drift": 2
+      },
+      {
+        "sprite": "gl_far",
+        "speed": 0.12,
+        "offset": 18,
+        "gap": 160
+      },
+      {
+        "sprite": "gl_mid",
+        "speed": 0.28,
+        "offset": 0,
+        "gap": 50
+      },
+      {
+        "sprite": "gl_near",
+        "speed": 0.5,
+        "offset": -14,
+        "gap": 130
+      }
+    ]
   },
   "tiles": [
     "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN",
-    "N......................!.......................N",
-    "N..................IIIIIIII....................N",
-    "N..====............IIIIIIII............====....N",
+    "NNNNNNNNNNN!....!.......!........!....NNNNNNNNNN",
+    "NNNNNN!...................................!NNNNN",
+    "NNN..........................................NNN",
+    "NN............................................NN",
+    "N....................*....*....................N",
+    "N..................NNNNNNNNNN..................N",
+    "N..........===.....N.!....!.N.....===..........N",
     "N..............................................N",
-    "N........IIII......................IIII........N",
-    "NNNN.....IIII......................IIII.....NNNN",
-    "N..................========....................N",
-    "N........====......................====........N",
     "N..............................................N",
-    "N..................IIIIIIII....................N",
-    "N..====............IIIIIIII............====....N",
+    "N.....====..........========..........====.....N",
     "N..............................................N",
-    "NNNNNN....................................NNNNNN",
-    "NNNNNN.....NNNN..............NNNN.........NNNNNN",
-    "NNNNNN%%%%%NNNN..............NNNN%%%%%%%%%NNNNNN",
-    "NNNNNNNNNNNNNNN..............NNNNNNNNNNNNNNNNNNN",
+    "N............===................===............N",
+    "N..*........................................*..N",
+    "NNNNNNNNN..........*........*..........NNNNNNNNN",
+    "NNNNNNNNNNNN.....NNNNNNNNNNNNNN.....NNNNNNNNNNNN",
+    "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN",
     "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN"
   ],
   "back": [
     "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN",
-    "N..............................................N",
-    "N..NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN..N",
-    "N..N........................................N..N",
-    "N..N........................................N..N",
-    "N..N........................................N..N",
-    "N..N........................................N..N",
-    "N..N........................................N..N",
-    "N..N........................................N..N",
-    "N..N........................................N..N",
-    "N..N........................................N..N",
-    "N..N........................................N..N",
-    "N..N........................................N..N",
-    "N..N........................................N..N",
-    "N..N........................................N..N",
-    "N..NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN..N",
+    "NNNNNNNNNNNNN......................NNNNNNNNNNNNN",
+    "NNNNNNNN................................NNNNNNNN",
+    "NNNNN.............NNNNNNNNNNNN.............NNNNN",
+    "NNN............NNN............NNN............NNN",
+    "NN............NN................NN............NN",
+    "NN...........NN..................NN...........NN",
+    "N...........NN....................NN...........N",
+    "N....NNN....NN....................NN....NNN....N",
+    "N....NNN....NN....................NN....NNN....N",
+    "N....NNN....NN....................NN....NNN....N",
+    "N....NNN....NN....................NN....NNN....N",
+    "N....NNN....NN....................NN....NNN....N",
+    "N....NNN....NN....................NN....NNN....N",
+    "NNNNNNNNNNNNNN....................NNNNNNNNNNNNNN",
+    "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN",
     "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN",
     "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN"
   ],
   "entities": [
     {
+      "prefab": "passage",
+      "pos": [
+        40,
+        224
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "target": "refuge",
+            "spawn_tag": ""
+          }
+        }
+      }
+    },
+    {
       "prefab": "start",
-      "pos": [64, 192]
+      "pos": [
+        80,
+        224
+      ]
+    },
+    {
+      "prefab": "brazier",
+      "pos": [
+        120,
+        224
+      ]
     },
     {
       "prefab": "vapeur",
-      "pos": [384, 256],
+      "pos": [
+        240,
+        256
+      ],
       "set": {
         "Script": {
-          "props": { "w": 40, "h": 160, "power": 400 }
+          "props": {
+            "w": 48,
+            "h": 176,
+            "power": 420
+          }
         }
       }
     },
     {
-      "prefab": "brazier",
-      "pos": [144, 192]
+      "prefab": "vapeur",
+      "pos": [
+        528,
+        256
+      ],
+      "set": {
+        "Script": {
+          "props": {
+            "w": 48,
+            "h": 176,
+            "power": 420
+          }
+        }
+      }
     },
     {
-      "prefab": "brazier",
-      "pos": [624, 192]
+      "prefab": "crystal",
+      "pos": [
+        344,
+        240
+      ]
     },
     {
-      "prefab": "hearth",
-      "pos": [688, 192]
+      "prefab": "crystal",
+      "pos": [
+        424,
+        240
+      ]
+    },
+    {
+      "prefab": "slime_givre",
+      "pos": [
+        384,
+        240
+      ]
     },
     {
       "prefab": "relic_altar",
-      "pos": [384, 80],
+      "pos": [
+        384,
+        96
+      ],
       "set": {
         "Script": {
-          "props": { "relic_id": "coeur_cendre", "name": "Cœur de Cendre" }
+          "props": {
+            "relic_id": "coeur_cendre",
+            "name": "Cœur de Cendre"
+          }
         }
       }
+    },
+    {
+      "prefab": "ember",
+      "pos": [
+        128,
+        136
+      ]
+    },
+    {
+      "prefab": "ember",
+      "pos": [
+        384,
+        136
+      ]
+    },
+    {
+      "prefab": "ember",
+      "pos": [
+        640,
+        136
+      ]
+    },
+    {
+      "prefab": "brazier",
+      "pos": [
+        648,
+        224
+      ]
+    },
+    {
+      "prefab": "hearth",
+      "pos": [
+        688,
+        224
+      ]
     },
     {
       "prefab": "passage",
-      "pos": [48, 192],
+      "pos": [
+        728,
+        224
+      ],
       "set": {
         "Script": {
-          "props": { "target": "refuge", "spawn_tag": "" }
+          "props": {
+            "target": "roots",
+            "spawn_tag": ""
+          }
         }
       }
     },
     {
-      "prefab": "passage",
-      "pos": [720, 192],
-      "set": {
-        "Script": {
-          "props": { "target": "roots", "spawn_tag": "" }
-        }
-      }
-    },
-    {
-      "prefab": "ember",
-      "pos": [240, 140]
-    },
-    {
-      "prefab": "ember",
-      "pos": [528, 140]
-    },
-    {
-      "prefab": "ember",
-      "pos": [384, 130]
+      "prefab": "flocons",
+      "pos": [
+        384,
+        144
+      ]
     }
   ]
 }

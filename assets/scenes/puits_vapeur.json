@@ -2,167 +2,267 @@
   "props": {
     "title": "forge · le puits de vapeur",
     "music": "forge",
-    "ambient": "#4d3d3a",
-    "sky_top": "#1a0f0d",
-    "sky_bottom": "#301a14"
+    "ambient": "#624640",
+    "sky_top": "#140a0a",
+    "sky_bottom": "#3a1a14",
+    "back_tint": "#3d2a26",
+    "parallax": [
+      {
+        "sprite": "fr_smoke",
+        "speed": 0.08,
+        "anchor": "top",
+        "drift": 2
+      },
+      {
+        "sprite": "fr_far",
+        "speed": 0.12,
+        "offset": 8,
+        "gap": 30
+      },
+      {
+        "sprite": "fr_mid",
+        "speed": 0.3,
+        "offset": 0,
+        "gap": 60
+      },
+      {
+        "sprite": "fr_near",
+        "speed": 0.55,
+        "offset": -10
+      }
+    ]
   },
   "tiles": [
     "MMMMMMMMMMMMMMMMMMMMMMMMMM",
-    "M........................M",
-    "M..HHHH............HHHH..M",
-    "M........................M",
-    "M........HHHHHHHH........M",
-    "M........................M",
-    "MMMMMM..............MMMMMM",
-    "M........................M",
-    "M....HHHH........HHHH....M",
-    "M........................M",
-    "M........HHHHHHHH........M",
-    "M........................M",
-    "MMMMMM..............MMMMMM",
-    "M........................M",
-    "M..HHHH............HHHH..M",
-    "M........................M",
-    "M........HHHHHHHH........M",
-    "M........................M",
-    "MMMMMM..............MMMMMM",
-    "M........................M",
-    "M....HHHH........HHHH....M",
-    "M........................M",
-    "M........HHHHHHHH........M",
-    "M........................M",
-    "MMMMMM..............MMMMMM",
-    "M........................M",
-    "M..HHHH............HHHH..M",
-    "M........................M",
-    "M........HHHHHHHH........M",
-    "M........................M",
-    "MMMMMM..............MMMMMM",
-    "M........................M",
-    "M....HHHH........HHHH....M",
-    "M........................M",
     "MMMMMMMMMMMMMMMMMMMMMMMMMM",
+    "M...|......|..|......|...M",
+    "M...|................|...M",
+    "M........................M",
+    "MMMMMMMMM........MMMMMMMMM",
+    "MMM.|................|.MMM",
+    "M.......HH......HH.......M",
+    "M........................M",
+    "M.................MMMMMMMM",
+    "M...HHHH..........MMM....M",
+    "M........................M",
+    "M...........HH...........M",
+    "M........................M",
+    "M........................M",
+    "MMMMMMMMM........HHHH....M",
+    "MMMM.|...................M",
+    "M.............HHHH.......M",
+    "M........................M",
+    "M.................MMMM...M",
+    "M........................M",
+    "M...HHHHH................M",
+    "M........................M",
+    "M.............HHHHH......M",
+    "M........................M",
+    "M........................M",
+    "M.................MMMMMMMM",
+    "M.....HHHH........MMM..|.M",
+    "M........................M",
+    "M........................M",
+    "M...HHHHH........HHHH....M",
+    "M........................M",
+    "M........................M",
+    "M........................M",
+    "MMMMMMMMMM%%%%%%MMMMMMMMMM",
     "MMMMMMMMMMMMMMMMMMMMMMMMMM"
   ],
   "back": [
     "MMMMMMMMMMMMMMMMMMMMMMMMMM",
-    "M........................M",
-    "M..qqqq............qqqq..M",
-    "M..q..q............q..q..M",
-    "M..q..q....qqqq....q..q..M",
-    "M..q..q....q..q....q..q..M",
-    "M..q..q....q..q....q..q..M",
-    "M..qqqq....q..q....qqqq..M",
-    "M..........q..q..........M",
-    "M..........q..q..........M",
-    "M..qqqq....q..q....qqqq..M",
-    "M..q..q....q..q....q..q..M",
-    "M..q..q....qqqq....q..q..M",
-    "M..q..q............q..q..M",
-    "M..qqqq............qqqq..M",
-    "M........................M",
-    "M..qqqq............qqqq..M",
-    "M..q..q............q..q..M",
-    "M..q..q....qqqq....q..q..M",
-    "M..q..q....q..q....q..q..M",
-    "M..q..q....q..q....q..q..M",
-    "M..qqqq....q..q....qqqq..M",
-    "M..........q..q..........M",
-    "M..........q..q..........M",
-    "M..qqqq....q..q....qqqq..M",
-    "M..q..q....q..q....q..q..M",
-    "M..q..q....qqqq....q..q..M",
-    "M..q..q............q..q..M",
-    "M..qqqq............qqqq..M",
-    "M........................M",
-    "M..qqqq............qqqq..M",
-    "M..q..q............q..q..M",
-    "M..q..q....qqqq....q..q..M",
-    "M..qqqq....qqqq....qqqq..M",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMM",
+    "M..MM................MM..M",
+    "M..MM................MM..M",
+    "M..MM...MMMMMMMMMM...MM..M",
+    "M..MM...MM......MM...MM..M",
+    "M..MM...MM......MM...MM..M",
+    "M..MM...MM......MM...MM..M",
+    "M..MM...MM......MM...MM..M",
+    "M..MM...MM......MM...MM..M",
+    "M..MMMMMMM......MMMMMMM..M",
+    "M..MM...MM......MM...MM..M",
+    "M..MM...MM......MM...MM..M",
+    "M..MM...MM......MM...MM..M",
+    "M..MM...MM......MM...MM..M",
+    "M..MMMMMMM......MMMMMMM..M",
+    "M..MM...MM......MM...MM..M",
+    "M..MM...MM......MM...MM..M",
+    "M..MM...MM......MM...MM..M",
+    "M..MM...MM......MM...MM..M",
+    "M..MM...MM......MM...MM..M",
+    "M..MMMMMMM......MMMMMMM..M",
+    "M..MM...MM......MM...MM..M",
+    "M..MM...MM......MM...MM..M",
+    "M..MM...MM......MM...MM..M",
+    "M..MM...MM......MM...MM..M",
+    "M..MMMMMMM......MMMMMMM..M",
+    "M..MM...MM......MM...MM..M",
+    "M..MM...MM......MM...MM..M",
+    "M..MM...MM......MM...MM..M",
+    "M..MM...MM......MM...MM..M",
+    "M..MMMMMMM......MMMMMMM..M",
+    "M..MM...MM......MM...MM..M",
+    "M..MM...MM......MM...MM..M",
     "MMMMMMMMMMMMMMMMMMMMMMMMMM",
     "MMMMMMMMMMMMMMMMMMMMMMMMMM"
   ],
   "entities": [
     {
       "prefab": "start",
-      "pos": [64, 528]
+      "pos": [
+        64,
+        544
+      ]
+    },
+    {
+      "prefab": "brazier",
+      "pos": [
+        112,
+        544
+      ]
     },
     {
       "prefab": "vapeur",
-      "pos": [208, 540],
+      "pos": [
+        208,
+        544
+      ],
       "set": {
         "Script": {
-          "props": { "w": 36, "h": 140, "power": 420 }
+          "props": {
+            "w": 64,
+            "h": 208,
+            "power": 420
+          }
         }
       }
     },
     {
       "prefab": "vapeur",
-      "pos": [208, 360],
+      "pos": [
+        208,
+        368
+      ],
       "set": {
         "Script": {
-          "props": { "w": 36, "h": 140, "power": 420 }
+          "props": {
+            "w": 64,
+            "h": 208,
+            "power": 420
+          }
         }
       }
     },
     {
       "prefab": "vapeur",
-      "pos": [208, 180],
+      "pos": [
+        208,
+        192
+      ],
       "set": {
         "Script": {
-          "props": { "w": 36, "h": 140, "power": 420 }
+          "props": {
+            "w": 64,
+            "h": 160,
+            "power": 420
+          }
         }
       }
     },
     {
       "prefab": "brazier",
-      "pos": [80, 528]
+      "pos": [
+        336,
+        416
+      ]
     },
     {
       "prefab": "brazier",
-      "pos": [336, 432]
+      "pos": [
+        80,
+        240
+      ]
     },
     {
       "prefab": "brazier",
-      "pos": [80, 240]
-    },
-    {
-      "prefab": "brazier",
-      "pos": [336, 144]
-    },
-    {
-      "prefab": "hearth",
-      "pos": [320, 64]
+      "pos": [
+        336,
+        144
+      ]
     },
     {
       "prefab": "relic_altar",
-      "pos": [208, 64],
+      "pos": [
+        80,
+        80
+      ],
       "set": {
         "Script": {
-          "props": { "relic_id": "plume_suie", "name": "Plume de Suie" }
+          "props": {
+            "relic_id": "plume_suie",
+            "name": "Plume de Suie"
+          }
         }
       }
+    },
+    {
+      "prefab": "hearth",
+      "pos": [
+        312,
+        80
+      ]
     },
     {
       "prefab": "passage",
-      "pos": [352, 64],
+      "pos": [
+        368,
+        80
+      ],
       "set": {
         "Script": {
-          "props": { "target": "refuge", "spawn_tag": "" }
+          "props": {
+            "target": "refuge",
+            "spawn_tag": ""
+          }
         }
       }
     },
     {
       "prefab": "ember",
-      "pos": [208, 480]
+      "pos": [
+        208,
+        456
+      ]
     },
     {
       "prefab": "ember",
-      "pos": [208, 300]
+      "pos": [
+        104,
+        312
+      ]
     },
     {
       "prefab": "ember",
-      "pos": [208, 120]
+      "pos": [
+        208,
+        224
+      ]
+    },
+    {
+      "prefab": "ember",
+      "pos": [
+        208,
+        56
+      ]
+    },
+    {
+      "prefab": "suie",
+      "pos": [
+        208,
+        288
+      ]
     }
   ]
 }

@@ -3,6 +3,7 @@
 #include <cstdio>
 #include "game.h"
 #include "relics.h"
+#include "thermal.h"
 
 // keyboard through the bindings in options.cpp, the pad as it comes
 bool input_left(const Input& in)
@@ -235,19 +236,22 @@ void player_update(const Input& in, float dt)
         b.gravity = 1;
 
     // rising air: the jump is over, the updraft takes it from here
+    bool in_updraft = p.wind.y < 0 || thermal_vent_lift_at(t.pos, true) > 0;
     if (p.wind.y < 0) {
-        b.vel.y = fmaxf(b.vel.y + p.wind.y * dt, -210);
+        float max_rise = relic_is_equipped("plume_suie") ? -245.0f : -210.0f;
+        b.vel.y = fmaxf(b.vel.y + p.wind.y * dt, max_rise);
         p.jumping = false;
     }
     p.wind = {};
 
-    // spread out and drift down while holding jump
-    p.gliding = has_power("planer") && !ground && !sliding && b.vel.y > 0 && input_jump_held(in);
+    // spread out and drift down (or ride a thermal column upward) while holding jump
+    p.gliding = has_power("planer") && !ground && !sliding && (b.vel.y > 0 || in_updraft) && input_jump_held(in);
     if (p.gliding) {
         float fall_speed = has_bonus("foret") ? 28.0f : 42.0f;
         if (relic_is_equipped("plume_suie"))
             fall_speed *= 0.72f;
-        b.vel.y = fminf(b.vel.y, fall_speed);
+        if (b.vel.y > 0)
+            b.vel.y = fminf(b.vel.y, fall_speed);
         b.gravity = 0.3f;
         p.squash = fmaxf(p.squash, 0.18f);
     }

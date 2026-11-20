@@ -52,13 +52,15 @@ float thermal_vent_lift_at(vec2 pos, bool gliding)
     for (const SteamVent& v : vents) {
         if (!is_in_vent(v, pos))
             continue;
-        // Near the top of the column, ease off so the player floats
+        // Ease off near the top of the column so Lueur hovers smoothly instead of bouncing
         float dist_from_top = pos.y - (v.pos.y - v.height);
-        float factor = clampf(dist_from_top / 24.0f, 0.2f, 1.0f);
-        float multiplier = gliding ? 1.4f : 0.6f;
+        float factor = clampf(dist_from_top / 28.0f, 0.25f, 1.0f);
+        // Scale scene power (~380-420) into upward acceleration that overcomes gravity (900)
+        float base_accel = v.power * 3.8f;
+        float multiplier = gliding ? 1.45f : 1.0f;
         if (relic_is_equipped("plume_suie"))
             multiplier *= 1.35f;
-        return v.power * factor * multiplier;
+        return base_accel * factor * multiplier;
     }
     return 0.0f;
 }
@@ -100,17 +102,13 @@ void thermal_update(float dt)
     if (lift <= 0.001f)
         return;
 
+    // Feed upward acceleration into player_update's wind channel for smooth ascent
+    p->wind.y -= lift;
     if (p->gliding) {
-        // Strong vertical propulsion when wings/glide are spread
-        b->vel.y = fminf(b->vel.y, -lift);
-        p->wind.y -= lift * 1.6f;
-        p->squash = fmaxf(p->squash, 0.3f);
-        if (randf(0, 1) < 0.4f) {
+        p->squash = fmaxf(p->squash, 0.25f);
+        if (randf(0, 1) < 0.4f)
             particles_burst(particle_fx("flame"), t->pos - vec2{ 0, 4 }, 1);
-        }
-    } else {
-        // Cushion fall or mild updraft while not gliding
-        b->vel.y = fminf(b->vel.y, 50.0f);
-        p->wind.y -= lift * 0.4f;
+    } else if (b->vel.y > 40.0f) {
+        b->vel.y = 40.0f;
     }
 }
